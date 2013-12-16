@@ -1,6 +1,7 @@
-SteedOS iOS App
+SteedOS Chat iOS App
 ========
 
-SteedOS Apps for Business is a cloud-based productivity suite that helps you and your team connect and get work done from anywhere on any device. 
+Private group chat and IM, built for business and team collaboration. 
+Persistent Chat Logs + Drag-and-Drop File Sharing + Desktop, Mobile, and Web Apps
 
-For more information about SteeOS Apps, please visit: http://blog.steedos.com
+For more information about SteeOS Chat, please visit: http://chat.steedos.com
