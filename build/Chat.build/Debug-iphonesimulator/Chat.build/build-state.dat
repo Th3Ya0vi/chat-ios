@@ -1,0 +1,836 @@
+TChat
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Info.plist /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Chat/config.xml build/emulator/Chat.app/config.xml
+cCpResource Chat/Resources/icons/icon-76.png build/emulator/Chat.app/icon-76.png
+cCpResource Chat/Resources/icons/icon-40@2x.png build/emulator/Chat.app/icon-40@2x.png
+cCpResource Chat/Resources/icons/icon-72.png build/emulator/Chat.app/icon-72.png
+cCpResource Chat/Resources/icons/icon.png build/emulator/Chat.app/icon.png
+cCpResource Chat/Resources/icons/icon@2x.png build/emulator/Chat.app/icon@2x.png
+cCopyStringsFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/en.lproj/Localizable.strings Chat/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib
+cCpResource Chat/Resources/icons/icon-50.png build/emulator/Chat.app/icon-50.png
+cCpResource Chat/Resources/icons/icon-60@2x.png build/emulator/Chat.app/icon-60@2x.png
+cCpResource Chat/Resources/icons/icon-small.png build/emulator/Chat.app/icon-small.png
+cCopyStringsFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/de.lproj/Localizable.strings Chat/Resources/de.lproj/Localizable.strings
+cCpResource Chat/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Chat.app/Default-Landscape@2x~ipad.png
+cCpResource Chat/Resources/splash/Default-Landscape~ipad.png build/emulator/Chat.app/Default-Landscape~ipad.png
+cCpResource Chat/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Chat.app/Default-Portrait@2x~ipad.png
+cCpResource Chat/Resources/icons/icon-small@2x.png build/emulator/Chat.app/icon-small@2x.png
+cCpResource Chat/Resources/splash/Default-Portrait~ipad.png build/emulator/Chat.app/Default-Portrait~ipad.png
+cCpResource Chat/Resources/icons/icon-40.png build/emulator/Chat.app/icon-40.png
+cCpResource Chat/Resources/splash/Default@2x~iphone.png build/emulator/Chat.app/Default@2x~iphone.png
+cCpResource Chat/Resources/icons/icon-60.png build/emulator/Chat.app/icon-60.png
+cCpResource Chat/Resources/splash/Default~iphone.png build/emulator/Chat.app/Default~iphone.png
+cCpResource Chat/Resources/splash/Default-568h@2x~iphone.png build/emulator/Chat.app/Default-568h@2x~iphone.png
+cCpResource Chat/Resources/icons/icon-76@2x.png build/emulator/Chat.app/icon-76@2x.png
+cCpResource Chat/Resources/icons/icon-50@2x.png build/emulator/Chat.app/icon-50@2x.png
+cCpResource Chat/Resources/icons/icon-72@2x.png build/emulator/Chat.app/icon-72@2x.png
+cProcessPCH /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch Chat/Chat-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat normal i386
+cGenerateDSYMFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat
+cTouch /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005281CA5D0000000000000176
+t1384237661
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000526CB22B00000000000003B5
+t1382855211
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526CB23300000000000001A0
+t1382855219
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000526CB2340000000000059350
+t1382855220
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526CB2360000000000445870
+t1382855222
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000526CB23600000000000EC820
+t1382855222
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000526CB23900000000001BA530
+t1382855225
+s1811760
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist
+c0000000052AEC49000000000000009D2
+t1387185296
+s2514
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Prefix.pch
+c0000000052AEC49000000000000003B9
+t1387185296
+s953
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m
+c0000000052AEC490000000000000139F
+t1387185296
+s5023
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m
+c0000000052AEC4900000000000001265
+t1387185296
+s4709
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib
+c0000000052AEC4900000000000001759
+t1387185296
+s5977
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/de.lproj/Localizable.strings
+c0000000052AEC49000000000000004BF
+t1387185296
+s1215
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/en.lproj/Localizable.strings
+c0000000052AEC49000000000000004AA
+t1387185296
+s1194
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-40.png
+c0000000052AEC4900000000000000FF2
+t1387185296
+s4082
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-40@2x.png
+c0000000052AEC4900000000000001CF3
+t1387185296
+s7411
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-50.png
+c0000000052AEC490000000000000130A
+t1387185296
+s4874
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-50@2x.png
+c0000000052AEC490000000000000258B
+t1387185296
+s9611
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-60.png
+c0000000052AEC49000000000000016B3
+t1387185296
+s5811
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-60@2x.png
+c0000000052AEC4900000000000002E94
+t1387185296
+s11924
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-72.png
+c0000000052AEC4900000000000001350
+t1387185296
+s4944
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-72@2x.png
+c0000000052AEC4900000000000002DBA
+t1387185296
+s11706
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-76.png
+c0000000052AEC4900000000000001B71
+t1387185296
+s7025
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-76@2x.png
+c0000000052AEC4900000000000003B9E
+t1387185296
+s15262
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-small.png
+c0000000052AEC4900000000000000CDE
+t1387185296
+s3294
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-small@2x.png
+c0000000052AEC49000000000000015E8
+t1387185296
+s5608
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon.png
+c0000000052AEC4900000000000000F3E
+t1387185296
+s3902
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon@2x.png
+c0000000052AEC4900000000000001EBD
+t1387185296
+s7869
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-568h@2x~iphone.png
+c0000000052AEC49000000000000085B1
+t1387185296
+s34225
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052AEC4900000000000012DF4
+t1387185296
+s77300
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Landscape~ipad.png
+c0000000052AEC4900000000000008877
+t1387185296
+s34935
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052AEC4900000000000012B02
+t1387185296
+s76546
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Portrait~ipad.png
+c0000000052AEC49000000000000085E6
+t1387185296
+s34278
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default@2x~iphone.png
+c0000000052AEC4900000000000007323
+t1387185296
+s29475
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default~iphone.png
+c0000000052AEC490000000000000289A
+t1387185296
+s10394
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/config.xml
+c0000000052AEC4900000000000001255
+t1387185296
+s4693
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m
+c0000000052AEC4900000000000000456
+t1387185296
+s1110
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o
+t1387185315
+s77592
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList
+c0000000052AEC4A200000000000001AD
+t1387185314
+s429
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o
+t1387185315
+s53552
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
+t1387185315
+s3096
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh
+c0000000052AEC4A2000000000000002D
+t1387185314
+s45
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app
+t1387185315
+s1020
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM
+t2
+s0
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat
+t1387185315
+s279892
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-568h@2x~iphone.png
+t1387185315
+s34225
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Landscape@2x~ipad.png
+t1387185315
+s77300
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Landscape~ipad.png
+t1387185315
+s34935
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Portrait@2x~ipad.png
+t1387185315
+s76546
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Portrait~ipad.png
+t1387185315
+s34278
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default@2x~iphone.png
+t1387185315
+s29475
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default~iphone.png
+t1387185315
+s10394
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Info.plist
+t1387185314
+s1229
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/MainViewController.nib
+t1387185315
+s1332
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/PkgInfo
+t2
+s0
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/config.xml
+t1387185315
+s4693
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/de.lproj/Localizable.strings
+t1387185315
+s280
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/en.lproj/Localizable.strings
+t1387185315
+s166
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-40.png
+t1387185315
+s4082
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-40@2x.png
+t1387185315
+s7411
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-50.png
+t1387185315
+s4874
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-50@2x.png
+t1387185315
+s9611
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-60.png
+t1387185315
+s5811
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-60@2x.png
+t1387185315
+s11924
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-72.png
+t1387185315
+s4944
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-72@2x.png
+t1387185315
+s11706
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-76.png
+t1387185315
+s7025
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-76@2x.png
+t1387185315
+s15262
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-small.png
+t1387185315
+s3294
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-small@2x.png
+t1387185315
+s5608
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon.png
+t1387185315
+s3902
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon@2x.png
+t1387185315
+s7869
+
+N/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/libCordova.a
+c0000000052AEC4A200000000000D7118
+t1387185314
+s880920
+
+N/var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch
+t1387185315
+s5342460
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies54fccb22fc5eb841^20d1cc22fc5eb841^---0#1#1#--18"Check dependencies36"A6DDA542-C969-4278-BA65-D7EF24AE1995-
+
+CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408878115.409181
+e408878115.486823
+r1
+xCompileC
+xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m187"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o Chat/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2ae66823fc5eb841^09a47c23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m0000000000000000^3911"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o Chat/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/UninstalledProducts/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -F/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -include /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch -MMD -MT dependencies -MF /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.dia -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/AppDelegate.m -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o36"53003BB6-2A72-454D-BCAE-049B2AC85F4C-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408878115.409446
+e408878115.476987
+r1
+xCompileC
+xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m201"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o Chat/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler93006923fc5eb841^b01b7a23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m0000000000000000^3953"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o Chat/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/UninstalledProducts/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -F/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -include /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch -MMD -MT dependencies -MF /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.dia -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.m -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o36"C262BBA5-CAB2-4755-9238-D0315744B4E9-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408878115.408808
+e408878115.434670
+r1
+xCompileC
+xbuild/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m165"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o Chat/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7ac86823fc5eb841^9c516f23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m0000000000000000^3853"CompileC build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o Chat/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/UninstalledProducts/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -F/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -include /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch -MMD -MT dependencies -MF /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.dia -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/main.m -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o36"958B9CCF-7976-42E0-AB72-903FC0F88FC6-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCompileXIB /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib
+s408878115.063173
+e408878115.088791
+r1
+xCompileXIB
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib46"CompileXIB Chat/Classes/MainViewController.xib726d1023fc5eb841^fdbb1623fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib0000000000000000^1021"CompileXIB Chat/Classes/MainViewController.xib    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/MainViewController.nib /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Classes/MainViewController.xib36"4EBC4ADB-E287-434B-B26F-1311C85BD19A-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCopyStringsFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/de.lproj/Localizable.strings Chat/Resources/de.lproj/Localizable.strings
+s408878115.067107
+e408878115.069381
+r1
+xCopyStringsFile
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/de.lproj/Localizable.strings
+xChat/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Chat/Resources/de.lproj/Localizable.strings112"CopyStringsFile build/emulator/Chat.app/de.lproj/Localizable.strings Chat/Resources/de.lproj/Localizable.strings986b1123fc5eb841^9cc31123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/de.lproj/Localizable.strings0000000000000000^810"CopyStringsFile build/emulator/Chat.app/de.lproj/Localizable.strings Chat/Resources/de.lproj/Localizable.strings    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/de.lproj -- Chat/Resources/de.lproj/Localizable.strings36"CC10B0E0-A5C7-48CC-99A0-D273E4578670-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCopyStringsFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/en.lproj/Localizable.strings Chat/Resources/en.lproj/Localizable.strings
+s408878115.062557
+e408878115.065613
+r1
+xCopyStringsFile
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/en.lproj/Localizable.strings
+xChat/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Chat/Resources/en.lproj/Localizable.strings112"CopyStringsFile build/emulator/Chat.app/en.lproj/Localizable.strings Chat/Resources/en.lproj/Localizable.stringsc43f1023fc5eb841^33161123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/en.lproj/Localizable.strings0000000000000000^810"CopyStringsFile build/emulator/Chat.app/en.lproj/Localizable.strings Chat/Resources/en.lproj/Localizable.strings    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/en.lproj -- Chat/Resources/en.lproj/Localizable.strings36"A942479B-51D0-4177-950B-7679A5975E85-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-40.png build/emulator/Chat.app/icon-40.png
+s408878115.073229
+e408878115.074902
+r1
+xCpResource
+xChat/Resources/icons/icon-40.png
+xbuild/emulator/Chat.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon-40.png79"CpResource Chat/Resources/icons/icon-40.png build/emulator/Chat.app/icon-40.png96ea1223fc5eb841^982f1323fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-40.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon-40.png build/emulator/Chat.app/icon-40.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-40.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"AD992F92-4A7A-47B3-BBEA-C735FDA728A5-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-40@2x.png build/emulator/Chat.app/icon-40@2x.png
+s408878115.059084
+e408878115.061499
+r1
+xCpResource
+xChat/Resources/icons/icon-40@2x.png
+xbuild/emulator/Chat.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-40@2x.png85"CpResource Chat/Resources/icons/icon-40@2x.png build/emulator/Chat.app/icon-40@2x.pnge7530f23fc5eb841^f8e20f23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-40@2x.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-40@2x.png build/emulator/Chat.app/icon-40@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-40@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"BF73163C-9EBF-46BC-AB75-49FD9DEFC6E9-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-50.png build/emulator/Chat.app/icon-50.png
+s408878115.063570
+e408878115.065508
+r1
+xCpResource
+xChat/Resources/icons/icon-50.png
+xbuild/emulator/Chat.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon-50.png79"CpResource Chat/Resources/icons/icon-50.png build/emulator/Chat.app/icon-50.png287e1023fc5eb841^ae111123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-50.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon-50.png build/emulator/Chat.app/icon-50.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-50.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"D8B44DE5-EB74-4B88-9DB0-953A364A378C-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-50@2x.png build/emulator/Chat.app/icon-50@2x.png
+s408878115.079829
+e408878115.081559
+r1
+xCpResource
+xChat/Resources/icons/icon-50@2x.png
+xbuild/emulator/Chat.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-50@2x.png85"CpResource Chat/Resources/icons/icon-50@2x.png build/emulator/Chat.app/icon-50@2x.pngc0951423fc5eb841^b0e21423fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-50@2x.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-50@2x.png build/emulator/Chat.app/icon-50@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-50@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"111F9188-BF55-4127-B02A-389751DF4D1F-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-60.png build/emulator/Chat.app/icon-60.png
+s408878115.075147
+e408878115.077335
+r1
+xCpResource
+xChat/Resources/icons/icon-60.png
+xbuild/emulator/Chat.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon-60.png79"CpResource Chat/Resources/icons/icon-60.png build/emulator/Chat.app/icon-60.png68781323fc5eb841^90c01323fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-60.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon-60.png build/emulator/Chat.app/icon-60.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-60.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"33655C1F-32D6-411F-9DD3-930AA4CFFAF3-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-60@2x.png build/emulator/Chat.app/icon-60@2x.png
+s408878115.064434
+e408878115.067251
+r1
+xCpResource
+xChat/Resources/icons/icon-60@2x.png
+xbuild/emulator/Chat.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-60@2x.png85"CpResource Chat/Resources/icons/icon-60@2x.png build/emulator/Chat.app/icon-60@2x.png16a11023fc5eb841^8e201123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-60@2x.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-60@2x.png build/emulator/Chat.app/icon-60@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-60@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"738C7614-9847-4C20-9559-6B12D32B3AD5-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-72.png build/emulator/Chat.app/icon-72.png
+s408878115.060299
+e408878115.062514
+r1
+xCpResource
+xChat/Resources/icons/icon-72.png
+xbuild/emulator/Chat.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon-72.png79"CpResource Chat/Resources/icons/icon-72.png build/emulator/Chat.app/icon-72.pngd6ac0f23fc5eb841^68031023fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-72.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon-72.png build/emulator/Chat.app/icon-72.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-72.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"9F563FF3-9FC2-4D68-A7FB-6069D7E71571-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-72@2x.png build/emulator/Chat.app/icon-72@2x.png
+s408878115.080397
+e408878115.082231
+r1
+xCpResource
+xChat/Resources/icons/icon-72@2x.png
+xbuild/emulator/Chat.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-72@2x.png85"CpResource Chat/Resources/icons/icon-72@2x.png build/emulator/Chat.app/icon-72@2x.pngaab51423fc5eb841^81041523fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-72@2x.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-72@2x.png build/emulator/Chat.app/icon-72@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-72@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"4C61E2BA-8F97-4C42-A87F-3982669C41DB-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-76.png build/emulator/Chat.app/icon-76.png
+s408878115.058751
+e408878115.061589
+r1
+xCpResource
+xChat/Resources/icons/icon-76.png
+xbuild/emulator/Chat.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon-76.png79"CpResource Chat/Resources/icons/icon-76.png build/emulator/Chat.app/icon-76.png76330f23fc5eb841^d7da0f23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-76.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon-76.png build/emulator/Chat.app/icon-76.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-76.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"92B20C7D-BD81-4E45-AC56-BFD190B67E07-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-76@2x.png build/emulator/Chat.app/icon-76@2x.png
+s408878115.079624
+e408878115.081807
+r1
+xCpResource
+xChat/Resources/icons/icon-76@2x.png
+xbuild/emulator/Chat.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-76@2x.png85"CpResource Chat/Resources/icons/icon-76@2x.png build/emulator/Chat.app/icon-76@2x.pngfda21423fc5eb841^c5001523fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-76@2x.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-76@2x.png build/emulator/Chat.app/icon-76@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-76@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"C04A5932-5554-4FA0-99DA-660C2194D046-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-small.png build/emulator/Chat.app/icon-small.png
+s408878115.066513
+e408878115.068735
+r1
+xCpResource
+xChat/Resources/icons/icon-small.png
+xbuild/emulator/Chat.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Chat.app/icon-small.png85"CpResource Chat/Resources/icons/icon-small.png build/emulator/Chat.app/icon-small.png54351123fc5eb841^89991123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-small.png0034d86edcffdf42^844"CpResource Chat/Resources/icons/icon-small.png build/emulator/Chat.app/icon-small.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-small.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"75EFB575-1210-4304-AD0D-3B8747C2BD7B-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon-small@2x.png build/emulator/Chat.app/icon-small@2x.png
+s408878115.070912
+e408878115.073263
+r1
+xCpResource
+xChat/Resources/icons/icon-small@2x.png
+xbuild/emulator/Chat.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Chat.app/icon-small@2x.png91"CpResource Chat/Resources/icons/icon-small@2x.png build/emulator/Chat.app/icon-small@2x.pnga2451223fc5eb841^5dc51223fc5eb841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon-small@2x.png0034d86edcffdf42^853"CpResource Chat/Resources/icons/icon-small@2x.png build/emulator/Chat.app/icon-small@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon-small@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"C765257F-0BFD-43FF-9B51-F576676286AF-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon.png build/emulator/Chat.app/icon.png
+s408878115.061067
+e408878115.063213
+r1
+xCpResource
+xChat/Resources/icons/icon.png
+xbuild/emulator/Chat.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/emulator/Chat.app/icon.png73"CpResource Chat/Resources/icons/icon.png build/emulator/Chat.app/icon.pngddec0f23fc5eb841^22361023fc5eb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon.png0034d86edcffdf42^826"CpResource Chat/Resources/icons/icon.png build/emulator/Chat.app/icon.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"4C8E34D4-65F9-456D-92B0-07970417B7EA-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/icons/icon@2x.png build/emulator/Chat.app/icon@2x.png
+s408878115.062097
+e408878115.063866
+r1
+xCpResource
+xChat/Resources/icons/icon@2x.png
+xbuild/emulator/Chat.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Chat.app/icon@2x.png79"CpResource Chat/Resources/icons/icon@2x.png build/emulator/Chat.app/icon@2x.png62141023fc5eb841^3a5b1023fc5eb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/icon@2x.png0034d86edcffdf42^835"CpResource Chat/Resources/icons/icon@2x.png build/emulator/Chat.app/icon@2x.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/icons/icon@2x.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"97EC6A12-2C21-4922-82DD-1A33D2A01174-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default-568h@2x~iphone.png build/emulator/Chat.app/Default-568h@2x~iphone.png
+s408878115.076167
+e408878115.077984
+r1
+xCpResource
+xChat/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Chat.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Chat.app/Default-568h@2x~iphone.png110"CpResource Chat/Resources/splash/Default-568h@2x~iphone.png build/emulator/Chat.app/Default-568h@2x~iphone.pngff971323fc5eb841^e8f91323fc5eb841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-568h@2x~iphone.png0034d86edcffdf42^882"CpResource Chat/Resources/splash/Default-568h@2x~iphone.png build/emulator/Chat.app/Default-568h@2x~iphone.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-568h@2x~iphone.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"DFA2661D-3309-42A9-86EB-8752F964DF54-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Chat.app/Default-Landscape@2x~ipad.png
+s408878115.067998
+e408878115.070387
+r1
+xCpResource
+xChat/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Chat.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/Chat.app/Default-Landscape@2x~ipad.png116"CpResource Chat/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Chat.app/Default-Landscape@2x~ipad.png16891123fc5eb841^e4131223fc5eb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Landscape@2x~ipad.png0034d86edcffdf42^891"CpResource Chat/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Chat.app/Default-Landscape@2x~ipad.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Landscape@2x~ipad.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"96FB9199-D92A-499E-BCA4-6A2AF0C00D79-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default-Landscape~ipad.png build/emulator/Chat.app/Default-Landscape~ipad.png
+s408878115.069026
+e408878115.071531
+r1
+xCpResource
+xChat/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Chat.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Chat.app/Default-Landscape~ipad.png110"CpResource Chat/Resources/splash/Default-Landscape~ipad.png build/emulator/Chat.app/Default-Landscape~ipad.pngc5e41123fc5eb841^72501223fc5eb841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Landscape~ipad.png0034d86edcffdf42^882"CpResource Chat/Resources/splash/Default-Landscape~ipad.png build/emulator/Chat.app/Default-Landscape~ipad.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Landscape~ipad.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"BD5B586A-3756-4B76-AF89-8A2A5AA00A77-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Chat.app/Default-Portrait@2x~ipad.png
+s408878115.069600
+e408878115.072086
+r1
+xCpResource
+xChat/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Chat.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Chat.app/Default-Portrait@2x~ipad.png114"CpResource Chat/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Chat.app/Default-Portrait@2x~ipad.pnga4ff1123fc5eb841^0d8a1223fc5eb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Portrait@2x~ipad.png0034d86edcffdf42^888"CpResource Chat/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Chat.app/Default-Portrait@2x~ipad.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Portrait@2x~ipad.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"BCB4AC7A-23AA-4B75-A69E-5971CDE09285-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default-Portrait~ipad.png build/emulator/Chat.app/Default-Portrait~ipad.png
+s408878115.071746
+e408878115.075122
+r1
+xCpResource
+xChat/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Chat.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/Chat.app/Default-Portrait~ipad.png108"CpResource Chat/Resources/splash/Default-Portrait~ipad.png build/emulator/Chat.app/Default-Portrait~ipad.png08cd1223fc5eb841^a33c1323fc5eb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default-Portrait~ipad.png0034d86edcffdf42^879"CpResource Chat/Resources/splash/Default-Portrait~ipad.png build/emulator/Chat.app/Default-Portrait~ipad.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default-Portrait~ipad.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"2755B67E-110E-45E8-AA5D-9863419E0297-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default@2x~iphone.png build/emulator/Chat.app/Default@2x~iphone.png
+s408878115.073558
+e408878115.075531
+r1
+xCpResource
+xChat/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Chat.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Chat.app/Default@2x~iphone.png100"CpResource Chat/Resources/splash/Default@2x~iphone.png build/emulator/Chat.app/Default@2x~iphone.png9f031323fc5eb841^c9561323fc5eb841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default@2x~iphone.png0034d86edcffdf42^867"CpResource Chat/Resources/splash/Default@2x~iphone.png build/emulator/Chat.app/Default@2x~iphone.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default@2x~iphone.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"03674440-E68C-4864-B25C-CFA37A42E856-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/Resources/splash/Default~iphone.png build/emulator/Chat.app/Default~iphone.png
+s408878115.075827
+e408878115.079951
+r1
+xCpResource
+xChat/Resources/splash/Default~iphone.png
+xbuild/emulator/Chat.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Chat.app/Default~iphone.png94"CpResource Chat/Resources/splash/Default~iphone.png build/emulator/Chat.app/Default~iphone.png3bdf1323fc5eb841^297a1423fc5eb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Default~iphone.png0034d86edcffdf42^858"CpResource Chat/Resources/splash/Default~iphone.png build/emulator/Chat.app/Default~iphone.png    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Resources/splash/Default~iphone.png /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"272A740A-B665-4BE2-B19B-10277EB39DD3-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CCpResource Chat/config.xml build/emulator/Chat.app/config.xml
+s408878115.058506
+e408878115.060836
+r1
+xCpResource
+xChat/config.xml
+xbuild/emulator/Chat.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/emulator/Chat.app/config.xml61"CpResource Chat/config.xml build/emulator/Chat.app/config.xml92210f23fc5eb841^b79c0f23fc5eb841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/config.xml0034d86edcffdf42^800"CpResource Chat/config.xml build/emulator/Chat.app/config.xml    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/config.xml /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"6FCCA4A6-924B-4FFB-8408-5BE48C4A2522-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CGenerateDSYMFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat
+s408878115.652975
+e408878115.692807
+r1
+xGenerateDSYMFile
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generate /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM74"GenerateDSYMFile build/emulator/Chat.app.dSYM build/emulator/Chat.app/Chat9f3da723fc5eb841^745cb123fc5eb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM0034d86edcffdf42^822"GenerateDSYMFile build/emulator/Chat.app.dSYM build/emulator/Chat.app/Chat    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app.dSYM36"51A763BA-04A8-4C9A-A33B-8BE408E1E203-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CLd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat normal i386
+s408878115.487805
+e408878115.651953
+r1
+xLd
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat
+xnormal
+xi386
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/main.o
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/AppDelegate.o
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat43"Ld build/emulator/Chat.app/Chat normal i38674077d23fc5eb841^4fe7a623fc5eb841^---0#0#1#--1924"Ld build/emulator/Chat.app/Chat normal i386    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -F/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -filelist /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat_dependency_info.dat -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Chat36"A70F6F97-7775-4395-A806-97A4388C22CA-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CPhaseScriptExecution Copy\ www\ directory /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh
+s408878114.804461
+e408878115.057853
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.228s
+ouser	0m0.081s
+osys	0m0.130s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'126"PhaseScriptExecution Copy\ www\ directory build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.shbbd2ce22fc5eb841^81d00e23fc5eb841^-42"real	0m0.228suser	0m0.081ssys	0m0.130s3(21%IDEActivityLogMessage2@14"real	0m0.228s-408878115#1#14#-0#-----2@14"user	0m0.081s-408878115#15#14#-0#-----2@13"sys	0m0.130s-408878115#29#13#-0#-----0#0#1#--22402"PhaseScriptExecution Copy\ www\ directory build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER zhuangjianguo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv BUILD_ROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator    setenv CACHE_ROOT /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator    setenv CONFIGURATION_TEMP_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Chat.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Chat.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Chat.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Chat.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Chat.app/Executables    setenv EXECUTABLE_FOLDER_PATH Chat.app    setenv EXECUTABLE_NAME Chat    setenv EXECUTABLE_PATH Chat.app/Chat    setenv FILE_LIST /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Chat.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Chat.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Chat/Chat-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include \"/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/usr/local/lib/include\" \"/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/UninstalledProducts/include\" \"/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Chat/Chat-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Chat.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Chat.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Chat.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER zhuangjianguo    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Chat.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Chat.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal/i386/Chat.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Chat.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13A603    setenv MAC_OS_X_VERSION_ACTUAL 1090    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0900    setenv MODULE_CACHE_DIR /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Objects-normal    setenv OBJROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Chat.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/PkgInfo    setenv PKGINFO_PATH Chat.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Chat.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Chat.app/PrivateHeaders    setenv PRODUCT_NAME Chat    setenv PRODUCT_SETTINGS_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Chat    setenv PROJECT_DERIVED_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/DerivedSources    setenv PROJECT_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PROJECT_FILE_PATH /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat.xcodeproj    setenv PROJECT_NAME Chat    setenv PROJECT_TEMP_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build    setenv PROJECT_TEMP_ROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH Chat.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Chat.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Chat.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Chat.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv SRCROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Chat    setenv TARGET_BUILD_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator    setenv TARGET_NAME Chat    setenv TARGET_TEMP_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build    setenv TEMP_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build    setenv TEMP_FILES_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build    setenv TEMP_FILE_DIR /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build    setenv TEMP_ROOT /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Chat.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER zhuangjianguo    setenv USER_APPS_DIR /Users/zhuangjianguo/Applications    setenv USER_LIBRARY_DIR /Users/zhuangjianguo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Chat.app/version.plist    setenv VERSION_INFO_BUILDER zhuangjianguo    setenv VERSION_INFO_FILE Chat_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Chat  PROJECT:Chat-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Chat.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Chat.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Script-304B58A110DAC018002A0835.sh36"8F16FFD8-6D70-48AC-BD31-A2E57000F4A4-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CProcessInfoPlistFile /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Info.plist /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist
+s408878114.800934
+e408878114.803041
+r1
+xProcessInfoPlistFile
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Info.plist
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist76"ProcessInfoPlistFile build/emulator/Chat.app/Info.plist Chat/Chat-Info.plist1329cd22fc5eb841^3a94cd22fc5eb841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist0000000000000000^916"ProcessInfoPlistFile build/emulator/Chat.app/Info.plist Chat/Chat-Info.plist    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Info.plist -genpkginfo /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app/Info.plist36"1854D2E8-77A3-4B47-8661-411B75E66AB5-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CProcessPCH /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch Chat/Chat-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408878115.089838
+e408878115.407683
+r1
+xProcessPCH
+x/var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch
+xChat/Chat-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Chat/Chat-Prefix.pch278"ProcessPCH /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch Chat/Chat-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd1b1723fc5eb841^8d636823fc5eb841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Prefix.pch0000000000000000^3923"ProcessPCH /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch Chat/Chat-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-generated-files.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-own-target-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-all-target-headers.hmap -iquote /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/Chat-project-headers.hmap -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/UninstalledProducts/include -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources/i386 -I/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/Chat.build/Debug-iphonesimulator/Chat.build/DerivedSources -F/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator --serialize-diagnostics /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.d -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/Chat/Chat-Prefix.pch -o /var/folders/0n/wmwwmx4s7pb7kvhpf_xk5yvc0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Chat-Prefix-dkmdsufwmhcmnscdhamaphsddoxq/Chat-Prefix.pch.pch36"00A11E9B-66D2-4CE2-872F-7F8C411BB4E4-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
+CTouch /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app
+s408878115.694470
+e408878115.699837
+r1
+xTouch
+x/Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app29"Touch build/emulator/Chat.app08e5b123fc5eb841^e928b323fc5eb841^---0#0#1#--603"Touch build/emulator/Chat.app    cd /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/zhuangjianguo/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/zhuangjianguo/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/zhuangjianguo/Github/steedos-ios/chat/platforms/ios/build/emulator/Chat.app36"3BE949A4-A588-4738-9B12-B0CD4C180371-
+b09738CC1-EB88-4863-94F5-DE7808B1481D
+
