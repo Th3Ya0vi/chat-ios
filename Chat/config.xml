@@ -7,6 +7,9 @@
     </description>
     <access origin="*" />
     <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
+    <!--
+    <content src="http://localhost:4020/steedos?phonegap=1&amp;"/>
+     -->
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -19,9 +22,22 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <feature name="LocalStorage">
-        <param name="ios-package" value="CDVLocalStorage" />
+    
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification"/>
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser"/>
+    </feature>
+    <feature name="PushPlugin">
+        <param name="ios-package" value="PushPlugin"/>
+    </feature>
+    
+    <!-- HotLong Software, added support for statusbar plugin -->
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
+    
     <author email="zhuangjianguo@hotlong.com" href="http://chat.steedos.com">
         HotLong Software
     </author>
@@ -41,6 +57,11 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
+    
+    <!-- 初始化状态栏黑色 -->
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    
     <icon src="icon.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
@@ -67,5 +88,4 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="http://127.0.0.1*" />
     
-    <gap:plugin name="com.phonegap.plugins.PushPlugin"/>
 </widget>
