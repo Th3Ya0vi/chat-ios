@@ -7,9 +7,9 @@
     </description>
     <access origin="*" />
     <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
-    <!--
-    <content src="http://localhost:4020/steedos?phonegap=1&amp;"/>
-     -->
+     <!--
+    <content src="http://192.168.0.187:4020/steedos?phonegap=1&amp;setup_server=setup-developer.steedos.com&amp;apps=chat#chat"/>
+      -->
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -31,6 +31,9 @@
     </feature>
     <feature name="PushPlugin">
         <param name="ios-package" value="PushPlugin"/>
+    </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
     </feature>
     
     <!-- HotLong Software, added support for statusbar plugin -->
