@@ -12,6 +12,11 @@
 		1F766FE113BBADB100FB74C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* InfoPlist.strings */; };
 		2481ACD318691B43008EF232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2481ACCE18691B43008EF232 /* InfoPlist.strings */; };
 		2481ACD418691B43008EF232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2481ACD118691B43008EF232 /* InfoPlist.strings */; };
+		24CC4363187196ED0009AAAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CC4362187196ED0009AAAC /* Images.xcassets */; };
+		24CC4367187199C10009AAAC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CC4365187199C10009AAAC /* icon.png */; };
+		24CC4368187199C10009AAAC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CC4366187199C10009AAAC /* icon@2x.png */; };
+		24CC436B18719B830009AAAC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CC436918719B830009AAAC /* Icon-72.png */; };
+		24CC436C18719B830009AAAC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CC436A18719B830009AAAC /* Icon-72@2x.png */; };
 		24E3871E185F1D7C0020349B /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E38714185F1D7C0020349B /* iPad.png */; };
 		24E3871F185F1D7C0020349B /* iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E38715185F1D7C0020349B /* iPad@2x.png */; };
 		24E38720185F1D7C0020349B /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E38716185F1D7C0020349B /* iPhone.png */; };
@@ -79,6 +84,11 @@
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		2481ACCF18691B43008EF232 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		2481ACD218691B43008EF232 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = InfoPlist.strings; sourceTree = "<group>"; };
+		24CC4362187196ED0009AAAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Chat/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		24CC4365187199C10009AAAC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		24CC4366187199C10009AAAC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		24CC436918719B830009AAAC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		24CC436A18719B830009AAAC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		24E38714185F1D7C0020349B /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
 		24E38715185F1D7C0020349B /* iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad@2x.png"; sourceTree = "<group>"; };
 		24E38716185F1D7C0020349B /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
@@ -260,6 +270,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24CC4362187196ED0009AAAC /* Images.xcassets */,
 				2481ACCD18691B43008EF232 /* zh-Hans.lproj */,
 				2481ACD018691B43008EF232 /* zh-Hant.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -311,6 +322,10 @@
 		308D052D1370CCF300D202BF /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				24CC436918719B830009AAAC /* Icon-72.png */,
+				24CC436A18719B830009AAAC /* Icon-72@2x.png */,
+				24CC4365187199C10009AAAC /* icon.png */,
+				24CC4366187199C10009AAAC /* icon@2x.png */,
 				24E38734185F1F510020349B /* iPhone57@2x.png */,
 				24E38728185F1EBB0020349B /* iPad50.png */,
 				24E38729185F1EBB0020349B /* iPad50@2x.png */,
@@ -429,7 +444,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E3875D1861885C0020349B /* README in Resources */,
+				24CC4363187196ED0009AAAC /* Images.xcassets in Resources */,
+				24CC436C18719B830009AAAC /* Icon-72@2x.png in Resources */,
 				2481ACD418691B43008EF232 /* InfoPlist.strings in Resources */,
+				24CC4368187199C10009AAAC /* icon@2x.png in Resources */,
 				2481ACD318691B43008EF232 /* InfoPlist.strings in Resources */,
 				F840E1F1165FE0F500CFE078 /* config.xml in Resources */,
 				24E38747185FEA190020349B /* 1024x768.png in Resources */,
@@ -444,6 +462,7 @@
 				24E38741185FEA190020349B /* Default~iphone.png in Resources */,
 				24E3874F185FEAE80020349B /* 1024x768@2x.png in Resources */,
 				24E38744185FEA190020349B /* Default~ipad.png in Resources */,
+				24CC4367187199C10009AAAC /* icon.png in Resources */,
 				24E38742185FEA190020349B /* Default.png in Resources */,
 				24E38743185FEA190020349B /* Default-568h@2x.png in Resources */,
 				24E38732185F1EBB0020349B /* iPhone57.png in Resources */,
@@ -451,6 +470,7 @@
 				24E38720185F1D7C0020349B /* iPhone.png in Resources */,
 				24E38746185FEA190020349B /* Default-Landscape~ipad.png in Resources */,
 				24E3872F185F1EBB0020349B /* iPad50@2x.png in Resources */,
+				24CC436B18719B830009AAAC /* Icon-72.png in Resources */,
 				24E38731185F1EBB0020349B /* iPad72@2x.png in Resources */,
 				24E3871F185F1D7C0020349B /* iPad@2x.png in Resources */,
 				24E3872E185F1EBB0020349B /* iPad50.png in Resources */,
@@ -540,6 +560,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -574,6 +596,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
