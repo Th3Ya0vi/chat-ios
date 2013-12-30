@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
+		1F766FE113BBADB100FB74C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* InfoPlist.strings */; };
 		2481ACD318691B43008EF232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2481ACCE18691B43008EF232 /* InfoPlist.strings */; };
 		2481ACD418691B43008EF232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2481ACD118691B43008EF232 /* InfoPlist.strings */; };
 		24E3871E185F1D7C0020349B /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E38714185F1D7C0020349B /* iPad.png */; };
@@ -76,7 +76,7 @@
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		2481ACCF18691B43008EF232 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		2481ACD218691B43008EF232 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		24E38714185F1D7C0020349B /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		1F766FDB13BBADB100FB74C0 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1F766FDC13BBADB100FB74C0 /* Localizable.strings */,
+				1F766FDC13BBADB100FB74C0 /* InfoPlist.strings */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -433,7 +433,7 @@
 				2481ACD318691B43008EF232 /* InfoPlist.strings in Resources */,
 				F840E1F1165FE0F500CFE078 /* config.xml in Resources */,
 				24E38747185FEA190020349B /* 1024x768.png in Resources */,
-				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
+				1F766FE113BBADB100FB74C0 /* InfoPlist.strings in Resources */,
 				24E38735185F1F510020349B /* iPhone57@2x.png in Resources */,
 				24E38726185F1D7C0020349B /* Spotlight.png in Resources */,
 				24E38724185F1D7C0020349B /* Settings.png in Resources */,
@@ -509,12 +509,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F766FDC13BBADB100FB74C0 /* Localizable.strings */ = {
+		1F766FDC13BBADB100FB74C0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1F766FDD13BBADB100FB74C0 /* en */,
 			);
-			name = Localizable.strings;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		2481ACCE18691B43008EF232 /* InfoPlist.strings */ = {
