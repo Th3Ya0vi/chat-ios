@@ -8,7 +8,7 @@
     <access origin="*" />
     <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
      <!--
-    <content src="http://192.168.0.187:4020/steedos?phonegap=1&amp;setup_server=setup-developer.steedos.com&amp;apps=chat#chat"/>
+    <content src="http://192.168.1.37:4020/steedos?phonegap=1&amp;apps=chat#chat"/>
       -->
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
@@ -40,6 +40,14 @@
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+
     
     <author email="zhuangjianguo@hotlong.com" href="http://chat.steedos.com">
         HotLong Software
