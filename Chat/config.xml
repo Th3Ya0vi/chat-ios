@@ -7,9 +7,9 @@
     </description>
     <access origin="*" />
     <content src="system/steedos/current/en-us/index.html?phonegap=1&amp;apps=chat#chat" />
-     <!--
-    <content src="http://192.168.1.37:4020/steedos?phonegap=1&amp;apps=chat#chat"/>
-      -->
+    <!--
+     <content src="http://localhost:4020/steedos?phonegap=1&amp;apps=chat#chat"/>
+    -->
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -64,7 +64,7 @@
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="auto-hide-splash-screen" value="false" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />

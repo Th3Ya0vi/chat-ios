@@ -1,153 +1,1303 @@
-<!DOCTYPE html><html class="no-js" lang="zh-cn"><head><meta http-equiv="X-UA-Compatible" content="IE=10"><script id="iso-base"></script><script>var SC_benchmarkPreloadEvents={headStart:new Date().getTime()};var docElem=window.documentElement||document.documentElement;
-if(docElem){docElem.className=docElem.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2");
-docElem=null};</script><meta http-equiv="Content-type" content="text/html; charset=utf-8"><meta http-equiv="Content-Script-Type" content="text/javascript"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><!-- iPhone ICON --><link href="../../../../statics/startup_images/steedos-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon"><!-- iPad ICON--><link href="../../../../statics/startup_images/steedos-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon"><!-- iPhone (Retina) ICON--><link href="../../../../statics/startup_images/steedos-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon"><!-- iPad (Retina) ICON--><link href="../../../../statics/startup_images/steedos-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon"><!-- iPhone SPLASHSCREEN--><link href="../../../../statics/startup_images/Default~iphone.png" media="screen and (max-device-width: 480px)" rel="apple-touch-startup-image"><!-- iPhone (Retina) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default@2x~iphone.png" media="screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)" rel="apple-touch-startup-image"><!-- iPhone 5 (Retina) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default@2x~iphone.png" media="screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)" rel="apple-touch-startup-image"><!-- iPad (portrait) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default-Portrait~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="apple-touch-startup-image"/><!-- iPad (landscape) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default-Landscape~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="apple-touch-startup-image"/><!-- iPad (Retina, portrait) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default-Portrait@2x~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image"/><!-- iPad (Retina, landscape) SPLASHSCREEN--><link href="../../../../statics/startup_images/Default-Landscape@2x~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image"/><link rel="shortcut icon" href="../../../../statics/favicon.png"><meta name="description" content="SteedOS Apps for Business is a cloud-based productivity suite that helps you and your team connect and get work done from anywhere on any device."/><meta name="keywords" content="steedos, free, workflow, chat, tasks, hotlong, cloud, saas"/><meta name="robots" content="noodp,noydir"/><meta name="google" value="notranslate" content="notranslate"/><title>SteedOS</title><script>BUILD_INFO={buildMode:"production",buildNumber:"4130",buildLocale:"zh-cn",currentUrl:"index.html",useRelativeUrls:true,styles:{x2:["stylesheet@2x-packed.css"],normal:["stylesheet-packed.css"]},images:{x2:["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y@2x.png"],normal:["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y.png","source/resources/images/stylesheet-1.png"]}};</script><script>window.SC=window.SC||{MODULE_INFO:{},LAZY_INSTANTIATION:{}};SC.buildMode="production";
-SC.buildNumber="4130";SC.buildLocale="zh-cn";</script><script type="text/javascript">String.preferredLanguage="zh-cn";</script><script type="text/javascript">window.SC=window.SC||{MODULE_INFO:{},LAZY_INSTANTIATION:{}};SC.BROWSER={android:"android",blackberry:"blackberry",chrome:"chrome",firefox:"firefox",ie:"ie",opera:"opera",safari:"safari",unknown:"unknown"};
-SC.DEVICE={android:"android",blackberry:"blackberry",desktop:"desktop",ipad:"ipad",iphone:"iphone",ipod:"ipod",mobile:"mobile"};
-SC.ENGINE={gecko:"gecko",opera:"opera",presto:"presto",trident:"trident",webkit:"webkit"};
-SC.OS={android:"android",blackberry:"blackberry",ios:"ios",linux:"linux",mac:"mac",win:"windows"};
-SC.detectBrowser=function(userAgent,language){var browser={},device,engineAndVersion,isIOSDevice,conExp="(?:[\\/:\\::\\s:;])",numExp="(\\S+[^\\s:;:\\)]|)",nameAndVersion,osAndVersion,override;
-userAgent=(userAgent||navigator.userAgent).toLowerCase();language=language||navigator.language||navigator.browserLanguage;
-device=userAgent.match(new RegExp("(android|ipad|iphone|ipod|blackberry)"))||userAgent.match(new RegExp("(mobile)"))||["",SC.DEVICE.desktop];
-browser.device=device[1];isIOSDevice=browser.device===SC.DEVICE.ipad||browser.device===SC.DEVICE.iphone||browser.device===SC.DEVICE.ipod;
-nameAndVersion=userAgent.match(new RegExp("(opera|chrome|firefox|android|blackberry)"+conExp+numExp))||userAgent.match(new RegExp("(ie|safari)"+conExp+numExp))||["",SC.BROWSER.unknown,"0"];
-if(isIOSDevice){nameAndVersion[1]=SC.BROWSER.safari}override=userAgent.match(new RegExp("(version)"+conExp+numExp));
-if(override){nameAndVersion[2]=override[2]}else{if(nameAndVersion[1]===SC.BROWSER.safari){nameAndVersion[2]="0"
-}}browser.name=nameAndVersion[1];browser.version=nameAndVersion[2];engineAndVersion=userAgent.match(new RegExp("(presto)"+conExp+numExp))||userAgent.match(new RegExp("(opera|trident|webkit|gecko)"+conExp+numExp))||["",SC.BROWSER.unknown,"0"];
-override=browser.name===SC.BROWSER.ie?SC.ENGINE.trident:false;if(override){engineAndVersion[1]=override
-}override=browser.name===SC.BROWSER.ie&&engineAndVersion[2]==="0";if(override){engineAndVersion[2]=browser.version
-}override=userAgent.match(new RegExp("(rv)"+conExp+numExp));if(override){engineAndVersion[2]=override[2]
-}browser.engine=engineAndVersion[1];browser.engineVersion=engineAndVersion[2];if(browser.name===SC.BROWSER.unknown){browser.name=browser.engine
-}osAndVersion=userAgent.match(new RegExp("(blackberry)"))||userAgent.match(new RegExp("(android|iphone(?: os)|windows(?: nt))"+conExp+numExp))||userAgent.match(new RegExp("(os|mac(?: os)(?: x))"+conExp+numExp))||userAgent.match(new RegExp("(linux)"))||[null,SC.BROWSER.unknown,"0"];
-if(isIOSDevice){osAndVersion[1]=SC.OS.ios}else{if(osAndVersion[1]==="mac os x"||osAndVersion[1]==="mac os"){osAndVersion[1]=SC.OS.mac
-}else{if(osAndVersion[1]==="windows nt"){osAndVersion[1]=SC.OS.win}}}osAndVersion[2]=osAndVersion[2]?osAndVersion[2].replace(/_/g,"."):"0";
-browser.os=osAndVersion[1];browser.osVersion=osAndVersion[2];browser.windows=browser.isWindows=browser.os===SC.OS.windows;
-browser.mac=browser.isMac=browser.os===SC.OS.mac;browser.lion=browser.isLion=!!(/mac os x 10_7/.test(userAgent)&&!/like mac os x 10_7/.test(userAgent));
-browser.iPhone=browser.isiPhone=browser.device===SC.DEVICE.iphone;browser.iPod=browser.isiPod=browser.device===SC.DEVICE.ipod;
-browser.iPad=browser.isiPad=browser.device===SC.DEVICE.ipad;browser.iOS=browser.isiOS=browser.iPhone||browser.iPod||browser.iPad;
-browser.android=browser.isAndroid=browser.os===SC.OS.android;browser.opera=browser.name===SC.BROWSER.opera?browser.version:"0";
-browser.isOpera=browser.name===SC.BROWSER.opera;browser.msie=browser.name===SC.BROWSER.ie?browser.version:"0";
-browser.isIE=browser.engine===SC.ENGINE.trident;browser.isIE8OrLower=browser.name===SC.BROWSER.ie&&browser.version<=8;
-browser.mozilla=browser.engine===SC.ENGINE.gecko?browser.version:"0";browser.isMozilla=browser.engine===SC.ENGINE.gecko;
-browser.webkit=browser.engine===SC.ENGINE.webkit?browser.engineVersion:"0";browser.isWebkit=browser.engine===SC.ENGINE.webkit;
-browser.chrome=browser.name===SC.BROWSER.chrome?browser.version:"0";browser.isChrome=browser.name===SC.BROWSER.chrome;
-browser.mobileSafari=browser.os===SC.OS.ios?browser.version:"0";browser.isMobileSafari=browser.name===SC.BROWSER.safari&&browser.isiOS;
-browser.iPadSafari=browser.device===SC.DEVICE.ipad&&browser.name===SC.BROWSER.safari?browser.version:0;
-browser.isiPadSafari=browser.device===SC.DEVICE.ipad&&browser.name===SC.BROWSER.safari;
-browser.iPhoneSafari=browser.device===SC.DEVICE.iphone&&browser.name===SC.BROWSER.safari?browser.version:0;
-browser.isiPhoneSafari=browser.device===SC.DEVICE.iphone&&browser.name===SC.BROWSER.safari;
-browser.iPodSafari=browser.device===SC.DEVICE.ipod&&browser.name===SC.BROWSER.safari?browser.version:0;
-browser.isiPodSafari=browser.device===SC.DEVICE.ipod&&browser.name===SC.BROWSER.safari;
-browser.isiOSHomeScreen=browser.isMobileSafari&&!(/apple.*mobile.*safari/.test(userAgent));
-browser.safari=browser.name===SC.BROWSER.safari&&browser.os===SC.OS.mac?browser.version:0;
-browser.isSafari=browser.name===SC.BROWSER.safari&&browser.os===SC.OS.mac;browser.language=language.split("-",1)[0];
-browser.countryCode=language.split("-")[1]?language.split("-")[1].toLowerCase():undefined;
-browser.current=browser.name;return browser};SC.browser=SC.detectBrowser();if(typeof SC_benchmarkPreloadEvents!=="undefined"){SC.benchmarkPreloadEvents=SC_benchmarkPreloadEvents;
-SC_benchmarkPreloadEvents=undefined}else{SC.benchmarkPreloadEvents={headStart:new Date().getTime()}
-}SC.setupBodyClassNames=function(){var el=document.body,browser,platform,shadows,borderRad,classNames,style,ieVersion;
-if(!el){return}browser=SC.browser.current;platform=SC.browser.isWindows?"windows":SC.browser.isMac?"mac":"other-platform";
-style=document.documentElement.style;shadows=(style.MozBoxShadow!==undefined)||(style.webkitBoxShadow!==undefined)||(style.oBoxShadow!==undefined)||(style.boxShadow!==undefined);
-borderRad=(style.MozBorderRadius!==undefined)||(style.webkitBorderRadius!==undefined)||(style.oBorderRadius!==undefined)||(style.borderRadius!==undefined);
-classNames=el.className?el.className.split(" "):[];if(shadows){classNames.push("box-shadow")
-}if(borderRad){classNames.push("border-rad")}classNames.push(browser,platform);ieVersion=parseInt(SC.browser.version,10);
-if(SC.browser.isIE){if(ieVersion===7){classNames.push("ie7")}else{if(ieVersion===8){classNames.push("ie8")
-}else{if(ieVersion===9){classNames.push("ie9")}}}}if(browser==="safari"||browser==="chrome"){classNames.push("webkit")
-}if(SC.browser.isMobileSafari){classNames.push("mobile-safari")}if("createTouch" in document){classNames.push("touch")
-}el.className=classNames.join(" ")};</script><script>SC.BROWSER={android:"android",blackberry:"blackberry",chrome:"chrome",firefox:"firefox",ie:"ie",opera:"opera",safari:"safari",unknown:"unknown"};
-SC.DEVICE={android:"android",blackberry:"blackberry",desktop:"desktop",ipad:"ipad",iphone:"iphone",ipod:"ipod",mobile:"mobile"};
-SC.ENGINE={gecko:"gecko",opera:"opera",presto:"presto",trident:"trident",webkit:"webkit"};
-SC.OS={android:"android",blackberry:"blackberry",ios:"ios",linux:"linux",mac:"mac",win:"windows"};
-SC._detectBrowser=function(userAgent,language){var version,webkitVersion,iOSAgent,iOSDevice,iOSMajorVersion,iOSMinorVersion,browser={};
-var device,engineAndVersion,isIOSDevice,conExp="(?:[\\/:\\::\\s:;])",numExp="(\\S+[^\\s:;:\\)]|)",nameAndVersion,osAndVersion,override;
-userAgent=(userAgent||navigator.userAgent).toLowerCase();language=language||navigator.language||navigator.browserLanguage;
-version=browser.version=(userAgent.match(/.*(?:rv|chrome|webkit|opera|ie)[\/: ](.+?)([ \);]|$)/)||[])[1];
-device=userAgent.match(new RegExp("(android|ipad|iphone|ipod|blackberry)"))||userAgent.match(new RegExp("(mobile)"))||["",SC.DEVICE.desktop];
-browser.device=device[1];isIOSDevice=browser.device===SC.DEVICE.ipad||browser.device===SC.DEVICE.iphone||browser.device===SC.DEVICE.ipod;
-nameAndVersion=userAgent.match(new RegExp("(opera|chrome|firefox|android|blackberry)"+conExp+numExp))||userAgent.match(new RegExp("(ie|safari)"+conExp+numExp))||["",SC.BROWSER.unknown,"0"];
-if(isIOSDevice){nameAndVersion[1]=SC.BROWSER.safari}override=userAgent.match(new RegExp("(version)"+conExp+numExp));
-if(override){nameAndVersion[2]=override[2]}else{if(nameAndVersion[1]===SC.BROWSER.safari){nameAndVersion[2]="0"
-}}browser.name=nameAndVersion[1];browser.version=nameAndVersion[2];engineAndVersion=userAgent.match(new RegExp("(presto)"+conExp+numExp))||userAgent.match(new RegExp("(opera|trident|webkit|gecko)"+conExp+numExp))||["",SC.BROWSER.unknown,"0"];
-override=browser.name===SC.BROWSER.ie?SC.ENGINE.trident:false;if(override){engineAndVersion[1]=override
-}override=browser.name===SC.BROWSER.ie&&engineAndVersion[2]==="0";if(override){engineAndVersion[2]=browser.version
-}override=userAgent.match(new RegExp("(rv)"+conExp+numExp));if(override){engineAndVersion[2]=override[2]
-}browser.engine=engineAndVersion[1];browser.engineVersion=engineAndVersion[2];if(SC.DOM_PREFIX){browser.domPrefix=(SC.DOM_PREFIX)[browser.engine]
-}if(browser.name===SC.BROWSER.unknown){browser.name=browser.engine}osAndVersion=userAgent.match(new RegExp("(blackberry)"))||userAgent.match(new RegExp("(android|iphone(?: os)|windows(?: nt))"+conExp+numExp))||userAgent.match(new RegExp("(os|mac(?: os)(?: x))"+conExp+numExp))||userAgent.match(new RegExp("(linux)"))||[null,SC.BROWSER.unknown,"0"];
-if(isIOSDevice){osAndVersion[1]=SC.OS.ios}else{if(osAndVersion[1]==="mac os x"||osAndVersion[1]==="mac os"){osAndVersion[1]=SC.OS.mac
-}else{if(osAndVersion[1]==="windows nt"){osAndVersion[1]=SC.OS.windows}}}osAndVersion[2]=osAndVersion[2]?osAndVersion[2].replace(/_/g,"."):"0";
-browser.os=osAndVersion[1];browser.osVersion=osAndVersion[2];webkitVersion=(userAgent.match(/webkit\/(.+?) /)||[])[1];
-iOSAgent=(userAgent.match(/\b(iPad|iPhone|iPod)\b.*\bOS (\d)_(\d)/i)||[]);iOSDevice=iOSAgent[1];
-iOSMajorVersion=iOSAgent[2];iOSMinorVersion=iOSAgent[3];browser.windows=browser.isWindows=!!/windows/.test(userAgent);
-browser.mac=browser.isMac=!!/macintosh/.test(userAgent)||(/mac os x/.test(userAgent)&&!/like mac os x/.test(userAgent));
-browser.lion=browser.isLion=!!(/mac os x 10[_\.][7-9]/.test(userAgent)&&!/like mac os x 10[_\.][7-9]/.test(userAgent));
-browser.iPhone=browser.isiPhone=(iOSDevice==="iphone");browser.iPod=browser.isiPod=(iOSDevice==="ipod");
-browser.iPad=browser.isiPad=(iOSDevice==="ipad");browser.iOS=browser.isiOS=browser.iPhone||browser.iPod||browser.iPad;
-browser.iOSMajorVersion=browser.iOS?iOSMajorVersion*1:undefined;browser.iOSMinorVersion=browser.iOS?iOSMinorVersion*1:undefined;
-browser.android=browser.isAndroid=!!/android/.test(userAgent);browser.silk=browser.isSilk=!!/silk/.test(userAgent);
-browser.opera=/opera/.test(userAgent)?version:0;browser.isOpera=!!browser.opera;browser.msie=/msie/.test(userAgent)&&!browser.opera?version:0;
-browser.isIE=!!browser.msie;browser.isIE8OrLower=!!(browser.msie&&parseInt(browser.msie,10)<=8);
-browser.isIE9OrLower=!!(browser.msie&&parseInt(browser.msie,10)<=9);browser.isIE10=!!(browser.msie&&parseInt(browser.msie,10)===10);
-browser.mozilla=/mozilla/.test(userAgent)&&!/(compatible|webkit|msie)/.test(userAgent)?version:0;
-browser.isMozilla=!!browser.mozilla;browser.webkit=/webkit/.test(userAgent)?webkitVersion:0;
-browser.isWebkit=!!browser.webkit;browser.chrome=/chrome/.test(userAgent)?version:0;
-browser.isChrome=!!browser.chrome;browser.mobileSafari=/apple.*mobile/.test(userAgent)&&browser.iOS?webkitVersion:0;
-browser.isMobileSafari=!!browser.mobileSafari;browser.iPadSafari=browser.iPad&&browser.isMobileSafari?webkitVersion:0;
-browser.isiPadSafari=!!browser.iPadSafari;browser.iPhoneSafari=browser.iPhone&&browser.isMobileSafari?webkitVersion:0;
-browser.isiPhoneSafari=!!browser.iphoneSafari;browser.iPodSafari=browser.iPod&&browser.isMobileSafari?webkitVersion:0;
-browser.isiPodSafari=!!browser.iPodSafari;browser.isiOSHomeScreen=browser.isMobileSafari&&!/apple.*mobile.*safari/.test(userAgent);
-browser.safari=browser.webkit&&!browser.chrome&&!browser.iOS&&!browser.android?webkitVersion:0;
-browser.isSafari=!!browser.safari;browser.language=language.split("-",1)[0];browser.countryCode=language.split("-")[1]?language.split("-")[1].toLowerCase():undefined;
-browser.current=browser.msie?"msie":browser.mozilla?"mozilla":browser.chrome?"chrome":browser.safari?"safari":browser.opera?"opera":browser.mobileSafari?"mobile-safari":browser.android?"android":"unknown";
-return browser};SC.browser=SC._detectBrowser();if(typeof SC_benchmarkPreloadEvents!=="undefined"){SC.benchmarkPreloadEvents=SC_benchmarkPreloadEvents;
-SC_benchmarkPreloadEvents=undefined}else{SC.benchmarkPreloadEvents={headStart:new Date().getTime()}
-};</script><script>(function(){var b=window.navigator,g=window.SC,f=b?b.userAgent:null;if(self==top){document.documentElement.style.display="block"
-}else{top.location=self.location;return}if(!window.SC||!g.browser){window.location.replace("/unavailable/");
-return}if(!window.console){window.console={error:function(){},warn:function(){},log:function(){}}
-}window.supportedLocales=["en-us","ja-jp","fr-fr","de-de","es-es","zh-cn","nl-nl","it-it","ko-kr","zh-tw","pt-pt","pt-br","da-dk","fi-fi","no-no","sv-se","ru-ru","pl-pl","tr-tr","uk-ua","cs-cz","hu-hu"];
-var e=window.supportedLocales;var c={"zh-hk":"zh-tw","nb-no":"no-no","nn-no":"no-no",nb:"no-no",nn:"no-no"};
-window.SteedOSBootstrap={getUserAgentVersion:function(l){var j="",h=0;try{j=(window.userAgent||navigator.userAgent).toLowerCase()
-}catch(i){j=navigator.userAgent.toLowerCase()}try{h=parseInt(j.match(l.regexp)[1],10)
-}catch(k){}return h},browserVersionFinders:{safari:{scApproval:g.browser.isSafari,regexp:/version\/(\d+\.\d+)/},mobilesafari:{scApproval:g.browser.isMobileSafari,regexp:/version\/(\d+\.\d+)/},android:{scApproval:g.browser.isAndroid,regexp:/android (\d+\.\d+)/},firefox:{scApproval:g.browser.isMozilla,regexp:/firefox\/(\d+\.\d+)/},chrome:{scApproval:g.browser.isChrome,regexp:/chrome\/(\d+\.\d+)/},opera:{scApproval:g.browser.isOpera,regexp:/version\/(\d+\.\d+)/},ie:{scApproval:g.browser.isIE,regexp:/msie (\d+\.\d+)/}},isBrowserVersionAtLeast:function(l){var i=SteedOSBootstrap.browserVersionFinders,j,h,k;
-for(j in l){if(j==="otherwise"){continue}if(i[j].scApproval){h=SteedOSBootstrap.getUserAgentVersion(i[j]);
-k=l[j];return k!==-1&&h>=k}}return !!l.otherwise},currentlyLoadedLocale:null,loadStringsForLocale:function(h,k){var j=document.createElement("script");
-var i="../../../../system/steedos/"+g.buildNumber+"/steedos/language/"+g.buildNumber+"/"+h+"/javascript.js";
-j.setAttribute("type","text/javascript");j.setAttribute("src",i);j.onload=j.onreadystatechange=function(){if(!this.readyState||this.readyState=="complete"||this.readyState=="loaded"){window.localeDidLoad=true;
-SteedOSBootstrap.currentlyLoadedLocale=h;if(window.SteedOS){window.SC.run(function(){window.SteedOS.set("localeDidLoad",true)
-})}if(k&&typeof k==="function"){k()}}};window.document.getElementsByTagName("head")[0].appendChild(j)
-},supportedRegionsForLanguage:function(){var k={};for(var h=0;h<e.length;h++){var l=e[h];
-var j=l.split("-");if(!k[j[0]]){k[j[0]]=[]}k[j[0]].push(j[1])}return k}(),getBrowserLocale:function(m){var h=(navigator.language||navigator.browserLanguage).toLowerCase(),k,j,l;
-if(m){h=m}h=(""+h).replace("_","-");if(c[h]){h=c[h]}k=h.split("-");if(SteedOSBootstrap.supportedRegionsForLanguage[k[0]]){l=SteedOSBootstrap.supportedRegionsForLanguage[k[0]];
-if(k.length>=2){for(j=0;j<l.length;j++){if(l[j]==k[1]){return h}}}return k[0]+"-"+l[0]
-}return h}};window.localeDidLoad=false;var d={},a={};(function(){var k=function(){var p={},u=location.search.substr(1).split("&"),r,q,t,s;
-for(s=0;!!u[s];s++){r=u[s].split("=");q=r[0];t=r[1];if(!!q&&!!t){p[q]=t}}return p
-}();var j=k&&k.locale?k.locale:SteedOSBootstrap.getBrowserLocale(),o=window.supportedLocales,m="en-us";
-for(var i=0,h=o.length;i<h;i++){if(o[i]===j){m=j}}String.preferredLanguage=m;var l=g.browser;
-if(l.iPhone||l.iPod){}else{if(l.iPad){}}if(!SteedOSBootstrap.isBrowserVersionAtLeast({safari:4,mobilesafari:0,firefox:4,opera:0,chrome:0,ie:9,otherwise:true})){var n=navigator.userAgent;
-window.location.replace("../../../../system/unsupported_browser");return}SteedOSBootstrap.loadStringsForLocale(m)
-})();g.stringsFor=function(j,h){var l=d[j];if(!l){l=d[j]=h}else{for(var k in h){if(h.hasOwnProperty(k)){l[k]=h[k]
-}}}};g.metricsFor=function(h,k){var l=a[h];if(!l){l=a[h]=k}else{for(var j in k){if(k.hasOwnProperty(j)){l[j]=k[j]
-}}}};window.localizedStrings=d;window.localizedMetrics=a}());</script><script>SC._relativeUrl_cachedCurrentUrl=(function(){var parts=BUILD_INFO.currentUrl.split("/");
-var idx,len=parts.length;for(idx=0;idx<parts.length;idx++){if(parts[idx]==".."){parts.splice(idx,1);
-parts.splice(idx-1,1);idx--;idx--}}return parts.join("/")})();SC.relativeUrl=function(to_url){if(!BUILD_INFO.useRelativeUrls){return to_url
-}var from_parts=SC._relativeUrl_cachedCurrentUrl.split("/");var to_parts=to_url.split("/");
-while(to_parts.length>=1&&from_parts.length>=1&&from_parts[0]===to_parts[0]){from_parts.shift();
-to_parts.shift()}var ret="";from_parts.pop();for(var idx=0,len=from_parts.length;
-idx<len;idx++){ret+="../"}ret+=to_parts.join("/");return ret};SC.absoluteUrl=function(relative_url){if(relative_url[0]==="/"){return relative_url
-}var path=window.location.pathname.split("/"),add=relative_url.split("/"),len=add.length,idx;
-if(path[path.length-1]===""){path.pop()}for(idx=0;idx<len;idx++){if(add[idx]==".."&&path.length>0){path.pop()
-}else{path.push(add[idx])}}return path.join("/")};(function(){var styles=[];if(window.devicePixelRatio==2||window.location.search.indexOf("2x")>-1){styles=["stylesheet@2x-packed.css"];
-SC.APP_IMAGE_ASSETS=["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y@2x.png"]
-}else{styles=["stylesheet-packed.css"];SC.APP_IMAGE_ASSETS=["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y.png","source/resources/images/stylesheet-1.png"]
-}var head=document.getElementsByTagName("head")[0],len=styles.length,idx,css;for(idx=0;
-idx<len;idx++){css=document.createElement("link");css.rel="stylesheet";css.type="text/css";
-css.href=styles[idx];css.media="screen";head.appendChild(css)}})();</script><script>SC.benchmarkPreloadEvents.headEnd=new Date().getTime();</script></head><body class="sc-theme sc-focus box-shadow border-rad chrome mac webkit"><script>SC.benchmarkPreloadEvents.bodyStart=new Date().getTime();</script><script type="text/javascript">if(SC.setupBodyClassNames){SC.setupBodyClassNames()};</script><div id="loading"><script>window._rhtmlSpinnerTimeout=setTimeout(function(){window._rhtmlSpinnerTimeout=undefined;
-var outer=document.createElement("div"),inner=document.createElement("div"),pos=0;
-outer.style.cssText="z-index:90; position:absolute; left:50%; top:50%; margin-left:-21px; margin-top:-21px; width:42px; height:42px; overflow:hidden;";
-inner.style.cssText="background-size:42px 504px; position:absolute; left:0px; top:0px; width:42px; height:504px;";
-inner.style.cssText+=(window.devicePixelRatio===2)?"background-image: url(../../../../system/steedos/"+SC.buildNumber+"/"+SC.buildLocale+"/source/resources/images/spinner@2x.png);":"background-image: url(../../../../system/steedos/"+SC.buildNumber+"/"+SC.buildLocale+"/source/resources/images/spinner.png);";
-outer.appendChild(inner);document.body.appendChild(outer);var _rhtmlSpinnerInterval=setInterval(function(){pos=(pos+1)%12;
-inner.style.top=-pos*42+"px"},56);window._removeRHTMLSpinner=function(){var stop=function(){clearInterval(_rhtmlSpinnerInterval);
-_rhtmlSpinnerInterval=undefined;if(outer.parentNode){outer.parentNode.removeChild(outer)
-}};if(window.SC&&SC.browser.isIE8OrLower&&window.CW&&CW.Anim){CW.Anim.Fader.create({element:outer,from:1,to:0,duration:500,stopSpin:stop.listens("finish")}).start()
-}else{stop()}}},100);window._removeRHTMLSpinner=function(){if(window._rhtmlSpinnerTimeout){clearTimeout(window._rhtmlSpinnerTimeout)
-}window._rhtmlSpinnerTimeout=undefined};</script></div><script type="text/javascript" src="javascript-packed.js"></script><script src="../../../../cordova.js"/></script><!--
-<script src="https://www.steedos.com../../../../system/phonegap/3.3.0/ios/cordova.js"/></script><script src="http://jsconsole.com/remote.js?FAE031CD-74A0-46D3-AE36-1999AB262BEA"></script>
---><script>document.addEventListener("deviceready",onDeviceReady,false);function onDeviceReady(){}SC.benchmarkPreloadEvents.bodyEnd=new Date().getTime();</script></body></html>
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"  >
+    <script id = "iso-base"></script>
+    <script>
+      var SC_benchmarkPreloadEvents = { headStart: new Date().getTime() };
+      var docElem = window.documentElement || document.documentElement;
+      if(docElem) {
+        docElem.className = docElem.className.replace(/(^|\s)no-js(\s|$)/, '$1js$2');
+        docElem = null;
+      }
+    </script>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"  >
+    <meta http-equiv="Content-Script-Type" content="text/javascript"  >
+    <meta name="apple-mobile-web-app-capable" content="yes"  >
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- iPhone ICON -->
+	<link href="../../../../statics/startup_images/steedos-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+	<!-- iPad ICON-->
+	<link href="../../../../statics/startup_images/steedos-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+	<!-- iPhone (Retina) ICON-->
+	<link href="../../../../statics/startup_images/steedos-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+	<!-- iPad (Retina) ICON-->
+	<link href="../../../../statics/startup_images/steedos-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+
+	<!-- iPhone SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default~iphone.png" media="screen and (max-device-width: 480px)" rel="apple-touch-startup-image">
+	<!-- iPhone (Retina) SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default@2x~iphone.png" media="screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)" rel="apple-touch-startup-image">
+  <!-- iPhone 5 (Retina) SPLASHSCREEN-->
+  <link href="../../../../statics/startup_images/Default@2x~iphone.png" media="screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)" rel="apple-touch-startup-image">
+	<!-- iPad (portrait) SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default-Portrait~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="apple-touch-startup-image" />
+	<!-- iPad (landscape) SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default-Landscape~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="apple-touch-startup-image" />
+	<!-- iPad (Retina, portrait) SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default-Portrait@2x~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<!-- iPad (Retina, landscape) SPLASHSCREEN-->
+	<link href="../../../../statics/startup_images/Default-Landscape@2x~ipad.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	
+    <link rel="shortcut icon" href="../../../../statics/favicon.png">
+
+<meta name="description" content="SteedOS Apps for Business is a cloud-based productivity suite that helps you and your team connect and get work done from anywhere on any device."/>
+<meta name="keywords" content="steedos, free, workflow, chat, tasks, hotlong, cloud, saas"/>
+<meta name="robots" content="noodp,noydir"/>
+<meta name="google" value="notranslate" content="notranslate"/>
+
+    <title>SteedOS</title>
+    
+    
+
+<script>
+	BUILD_INFO={
+		buildMode:"production",
+		buildNumber:"4130",
+		buildLocale:"zh-cn",
+		currentUrl:"index.html",
+		//currentUrl: window.location.pathname,
+		useRelativeUrls:true,
+		styles:{
+			x2: ["stylesheet@2x-packed.css"],
+			normal: ["stylesheet-packed.css"]
+		},
+		images:{
+			x2: ["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y@2x.png"],
+			normal:["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y.png","source/resources/images/stylesheet-1.png"]
+		}
+	};
+</script>
+
+    <script>
+      window.SC = window.SC || { MODULE_INFO: {}, LAZY_INSTANTIATION: {} };
+      SC.buildMode = 'production';
+      SC.buildNumber = '4130';
+      SC.buildLocale = 'zh-cn';
+	</script>
+      
+  <script type="text/javascript">String.preferredLanguage = "zh-cn";</script>
+<script type="text/javascript">
+/* >>>>>>>>>> BEGIN source/core.js */
+// ==========================================================================
+// Project:   SproutCore - JavaScript Application Framework
+// Copyright: ©2006-2011 Strobe Inc. and contributors.
+//            Portions ©2008-2011 Apple Inc. All rights reserved.
+// License:   Licensed under MIT license (see license.js)
+// ==========================================================================
+
+
+/* >>>>>>>>>> BEGIN source../../../../system/browser.js */
+// ==========================================================================
+// Project:   SproutCore - JavaScript Application Framework
+// Copyright: ©2006-2011 Strobe Inc. and contributors.
+//            Portions ©2008-2011 Apple Inc. All rights reserved.
+// License:   Licensed under MIT license (see license.js)
+// ==========================================================================
+
+window.SC = window.SC || { MODULE_INFO: {}, LAZY_INSTANTIATION: {} };
+
+
+/**
+  The list of browsers that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.BROWSER = {
+  android: 'android',
+  blackberry: 'blackberry',
+  chrome: 'chrome',
+  firefox: 'firefox',
+  ie: 'ie',
+  opera: 'opera',
+  safari: 'safari',
+  unknown: 'unknown'
+};
+
+/**
+  The list of devices that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.DEVICE = {
+  android: 'android',
+  blackberry: 'blackberry',
+  desktop: 'desktop',
+  ipad: 'ipad',
+  iphone: 'iphone',
+  ipod: 'ipod',
+  mobile: 'mobile'
+};
+
+/**
+  The list of browser engines that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.ENGINE = {
+  gecko: 'gecko',
+  opera: 'opera',
+  presto: 'presto',
+  trident: 'trident',
+  webkit: 'webkit'
+};
+
+/**
+  The list of operating systems that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.OS = {
+  android: 'android',
+  blackberry: 'blackberry',
+  ios: 'ios',
+  linux: 'linux',
+  mac: 'mac',
+  win: 'windows'
+};
+
+
+/**
+  Detects browser properties based on the given userAgent and language.
+
+  @private
+*/
+SC.detectBrowser = function(userAgent, language) {
+  var browser = {},
+      device,
+      engineAndVersion,
+      isIOSDevice,
+      conExp = '(?:[\\/:\\::\\s:;])', // Match the connecting character
+      numExp = '(\\S+[^\\s:;:\\)]|)', // Match the "number"
+      nameAndVersion,
+      osAndVersion,
+      override;
+
+  // Use the current values if none are provided.
+  userAgent = (userAgent || navigator.userAgent).toLowerCase();
+  language = language || navigator.language || navigator.browserLanguage;
+
+  // Calculations to determine the device.  See SC.DEVICE.
+  device =
+    userAgent.match( new RegExp('(android|ipad|iphone|ipod|blackberry)') ) ||
+    userAgent.match( new RegExp('(mobile)') ) ||
+    ['', SC.DEVICE.desktop];
+
+  /**
+    @name SC.browser.device
+    @type {SC.DEVICE}
+  */
+  browser.device = device[1];
+
+
+  // It simplifies further matching by recognizing this group of devices.
+  isIOSDevice =
+    browser.device === SC.DEVICE.ipad ||
+    browser.device === SC.DEVICE.iphone ||
+    browser.device === SC.DEVICE.ipod;
+
+
+  // Calculations to determine the name and version.  See SC.BROWSER.
+
+  nameAndVersion =
+    // Match the specific names first, avoiding commonly spoofed browsers.
+    userAgent.match( new RegExp('(opera|chrome|firefox|android|blackberry)' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(ie|safari)' + conExp + numExp) ) ||
+    ['', SC.BROWSER.unknown, '0'];
+
+  // If the device is an iOS device, use SC.BROWSER.safari for browser.name.
+  if (isIOSDevice) { nameAndVersion[1] = SC.BROWSER.safari; }
+
+  // If a `Version` number is found, use that over the `Name` number
+  override = userAgent.match( new RegExp('(version)' + conExp + numExp) );
+  if (override) { nameAndVersion[2] = override[2]; }
+  // If there is no `Version` in Safari, don't use the Safari number since it is
+  // the Webkit number.
+  else if (nameAndVersion[1] === SC.BROWSER.safari) { nameAndVersion[2] = '0'; }
+
+
+  /**
+    @name SC.browser.name
+    @type {SC.BROWSER}
+  */
+  browser.name = nameAndVersion[1];
+
+  /**
+    @name SC.browser.version
+    @type String
+  */
+  browser.version = nameAndVersion[2];
+
+
+  // Calculations to determine the engine and version.  See SC.ENGINE.
+  engineAndVersion =
+    // Match the specific engines first, avoiding commonly spoofed browsers.
+    userAgent.match( new RegExp('(presto)' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(opera|trident|webkit|gecko)' + conExp + numExp) ) ||
+    ['', SC.BROWSER.unknown, '0'];
+
+  // If the browser is SC.BROWSER.ie, use SC.ENGINE.trident.
+  override = browser.name === SC.BROWSER.ie ? SC.ENGINE.trident : false;
+  if (override) { engineAndVersion[1] = override; }
+
+  // If the engineVersion is unknown and the browser is SC.BROWSER.ie, use
+  // browser.version for browser.engineVersion.
+  override = browser.name === SC.BROWSER.ie && engineAndVersion[2] === '0';
+  if (override) { engineAndVersion[2] = browser.version; }
+
+  // If a `rv` number is found, use that over the engine number.
+  override = userAgent.match( new RegExp('(rv)' + conExp + numExp) );
+  if (override) { engineAndVersion[2] = override[2]; }
+
+
+  /**
+    @name SC.browser.engine
+    @type {SC.ENGINE}
+    @type {SC.BROWSER.unknown}
+  */
+  browser.engine = engineAndVersion[1];
+
+  /**
+    @name SC.browser.engineVersion
+    @type String
+  */
+  browser.engineVersion = engineAndVersion[2];
+
+
+  // If we don't know the name of the browser, use the name of the engine.
+  if (browser.name === SC.BROWSER.unknown) { browser.name = browser.engine; }
+
+  // Calculations to determine the os and version.  See SC.OS.
+  osAndVersion =
+    // Match the specific names first, avoiding commonly spoofed os's.
+    userAgent.match( new RegExp('(blackberry)') ) ||
+    userAgent.match( new RegExp('(android|iphone(?: os)|windows(?: nt))' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(os|mac(?: os)(?: x))' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(linux)') ) ||
+    [null, SC.BROWSER.unknown, '0'];
+
+  // Normalize the os name.
+  if (isIOSDevice) { osAndVersion[1] = SC.OS.ios; }
+  else if (osAndVersion[1] === 'mac os x' || osAndVersion[1] === 'mac os') { osAndVersion[1] = SC.OS.mac; }
+  else if (osAndVersion[1] === 'windows nt') { osAndVersion[1] = SC.OS.win; }
+
+  // Normalize the os version.
+  osAndVersion[2] = osAndVersion[2] ? osAndVersion[2].replace(/_/g, '.') : '0';
+
+
+  /**
+    @name SC.browser.os
+    @type {SC.OS}
+    @type {SC.BROWSER.unknown}
+  */
+  browser.os = osAndVersion[1];
+
+  /**
+    @name SC.browser.osVersion
+    @type String
+  */
+  browser.osVersion = osAndVersion[2];
+
+
+  // The following long list of properties have all been deprecated.  While they
+  // are a bit less verbose then the above constants, they lack standardization
+  // and can be prone to failure.  Rather than continuing to expand this list
+  // with more and more one-off comparisons, which often muddle the line between
+  // the browser, the engine, the os and the device, it seems more practical to
+  // only maintain the 7 identifiable properties listed above:  device, name,
+  // version, os, osVersion, engine and engineVersion.
+
+  /** @deprecated Since version 1.7. Use browser.os === SC.OS.windows.
+    @name SC.browser.isWindows
+    @type Boolean
+  */
+  browser.windows = browser.isWindows = browser.os === SC.OS.windows;
+
+  /** @deprecated Since version 1.7. Use browser.os === SC.OS.mac.
+    @name SC.browser.isMac
+    @type Boolean
+  */
+  browser.mac = browser.isMac = browser.os === SC.OS.mac;
+
+  /** @deprecated Since version 1.7. Use browser.os === SC.OS.mac && browser.compare(browser.osVersion, '10.7') == 0
+    @name SC.browser.isLion
+    @type Boolean
+  */
+  browser.lion = browser.isLion = !!(/mac os x 10_7/.test(userAgent) && !/like mac os x 10_7/.test(userAgent));
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.iphone.
+    @name SC.browser.isiPhone
+    @type Boolean
+  */
+  browser.iPhone = browser.isiPhone = browser.device === SC.DEVICE.iphone;
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.ipod.
+    @name SC.browser.isiPod
+    @type Boolean
+  */
+  browser.iPod = browser.isiPod = browser.device === SC.DEVICE.ipod;
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.ipad.
+    @name SC.browser.isiPad
+    @type Boolean
+  */
+  browser.iPad = browser.isiPad = browser.device === SC.DEVICE.ipad;
+
+  /** @deprecated Since version 1.7. Use browser.os === SC.OS.ios.
+    @name SC.browser.isiOS
+    @type Boolean
+  */
+  browser.iOS = browser.isiOS = browser.iPhone || browser.iPod || browser.iPad;
+
+  /** @deprecated Since version 1.7. Use browser.os === SC.OS.android or browser.name === SC.BROWSER.android or browser.device === SC.DEVICE.android.
+    @name SC.browser.isAndroid
+    @type Boolean
+  */
+  browser.android = browser.isAndroid = browser.os === SC.OS.android;
+
+  /** @deprecated Since version 1.7. Use browser.version or browser.engineVersion.
+    @name SC.browser.opera
+    @type String
+  */
+  browser.opera = browser.name === SC.BROWSER.opera ? browser.version : '0';
+
+  /** @deprecated Since version 1.7. Use browser.name === SC.BROWSER.opera.
+    @name SC.browser.isOpera
+    @type Boolean
+  */
+  browser.isOpera = browser.name === SC.BROWSER.opera;
+
+  /** @deprecated Since version 1.7. Use browser.version or browser.engineVersion.
+    @name SC.browser.msie
+    @type String
+  */
+  browser.msie = browser.name === SC.BROWSER.ie ? browser.version : '0';
+
+  /** @deprecated Since version 1.7. Use browser.engine === SC.ENGINE.trident.
+    @name SC.browser.isIE
+    @type Boolean
+  */
+  browser.isIE = browser.engine === SC.ENGINE.trident;
+
+  /** @deprecated Since version 1.7. Use browser.compare(browser.version, '8') <= 0.
+    @name SC.browser.isIE8OrLower
+    @type Boolean
+  */
+  browser.isIE8OrLower = browser.name === SC.BROWSER.ie && browser.version <= 8;
+
+  /** @deprecated Since version 1.7. Use browser.version or browser.engineVersion.
+    @name SC.browser.mozilla
+    @type String
+  */
+  browser.mozilla = browser.engine === SC.ENGINE.gecko ? browser.version : '0';
+
+  /** @deprecated Since version 1.7. Use browser.name === SC.BROWSER.firefox or browser.engine === SC.ENGINE.gecko.
+    @name SC.browser.isMozilla
+    @type Boolean
+  */
+  browser.isMozilla = browser.engine === SC.ENGINE.gecko;
+
+  /** @deprecated Since version 1.7. Use browser.engineVersion.
+    @name SC.browser.webkit
+    @type String
+  */
+  browser.webkit = browser.engine === SC.ENGINE.webkit ? browser.engineVersion : '0';
+
+  /** @deprecated Since version 1.7. Use browser.engine === SC.ENGINE.webkit.
+    @name SC.browser.isWebkit
+    @type Boolean
+  */
+  browser.isWebkit = browser.engine === SC.ENGINE.webkit;
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.chrome
+    @type String
+  */
+  browser.chrome = browser.name === SC.BROWSER.chrome ? browser.version : '0';
+
+  /** @deprecated Since version 1.7. Use browser.name === SC.BROWSER.chrome.
+    @name SC.browser.isChrome
+    @type Boolean
+  */
+  browser.isChrome = browser.name === SC.BROWSER.chrome;
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.mobileSafari
+    @type String
+  */
+  browser.mobileSafari = browser.os === SC.OS.ios ? browser.version : '0';
+
+  /** @deprecated Since version 1.7. Use browser.name === SC.BROWSER.safari && browser.os === SC.OS.ios
+    @name SC.browser.isMobileSafari
+    @type Boolean
+  */
+  browser.isMobileSafari = browser.name === SC.BROWSER.safari && browser.isiOS;
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.iPadSafari
+    @type String
+  */
+  browser.iPadSafari = browser.device === SC.DEVICE.ipad && browser.name === SC.BROWSER.safari ?
+    browser.version : 0;
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.ipad && browser.name === SC.BROWSER.safari
+    @name SC.browser.isiPadSafari
+    @type Boolean
+  */
+  browser.isiPadSafari = browser.device === SC.DEVICE.ipad && browser.name === SC.BROWSER.safari;
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.iPhoneSafari
+    @type String
+  */
+  browser.iPhoneSafari = browser.device === SC.DEVICE.iphone && browser.name === SC.BROWSER.safari ?
+    browser.version : 0;
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.iphone && browser.name === SC.BROWSER.safari
+    @name SC.browser.isiPhoneSafari
+    @type Boolean
+  */
+  browser.isiPhoneSafari = browser.device === SC.DEVICE.iphone && browser.name === SC.BROWSER.safari;
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.iPodSafari
+    @type String
+  */
+  browser.iPodSafari = browser.device === SC.DEVICE.ipod && browser.name === SC.BROWSER.safari ?
+    browser.version : 0;
+
+  /** @deprecated Since version 1.7. Use browser.device === SC.DEVICE.ipod && browser.name === SC.BROWSER.safari
+    @name SC.browser.isiPodSafari
+    @type Boolean
+  */
+  browser.isiPodSafari = browser.device === SC.DEVICE.ipod && browser.name === SC.BROWSER.safari;
+
+  /** @deprecated Since version 1.7. Use SC.platform.standalone.
+    @name SC.browser.isiOSHomeScreen
+    @type Boolean
+  */
+  browser.isiOSHomeScreen = browser.isMobileSafari && !(/apple.*mobile.*safari/.test(userAgent));
+
+  /** @deprecated Since version 1.7. Use browser.version.
+    @name SC.browser.safari
+    @type String
+  */
+  browser.safari = browser.name === SC.BROWSER.safari && browser.os === SC.OS.mac ?
+    browser.version : 0;
+
+  /** @deprecated Since version 1.7. Use browser.name === SC.BROWSER.safari && browser.os === SC.OS.mac.
+    @name SC.browser.isSafari
+    @type Boolean
+  */
+  browser.isSafari = browser.name === SC.BROWSER.safari && browser.os === SC.OS.mac;
+
+  /**
+    @name SC.browser.language
+    @type String
+  */
+  browser.language = language.split('-', 1)[0];
+
+  /**
+    @name SC.browser.countryCode
+    @type String
+  */
+  browser.countryCode = language.split('-')[1] ? language.split('-')[1].toLowerCase() : undefined;
+
+  /** @deprecated Since version 1.7. Use browser.name.  See SC.BROWSER for possible values.
+    Possible values:
+
+      - 'ie'
+      - 'mozilla'
+      - 'chrome'
+      - 'safari'
+      - 'opera'
+      - 'mobile-safari'
+      - 'unknown'
+
+    @name SC.browser.current
+    @type String
+    @default 'unknown'
+  */
+  browser.current = browser.name;
+
+  return browser;
+};
+
+
+/** @class
+
+  This object contains information about the browser environment SproutCore is
+  running in. This includes the following properties:
+
+    - browser.device                  ex. SC.DEVICE.ipad
+    - browser.name                    ex. SC.BROWSER.chrome
+    - browser.version                 ex. '16.0.2.34'
+    - browser.os                      ex. SC.OS.mac
+    - browser.osVersion               ex. '10.6'
+    - browser.engine                  ex. SC.ENGINE.webkit
+    - browser.engineVersion           ex. '533.29'
+
+  Note: User agent sniffing does not provide guaranteed results and spoofing may
+  affect the accuracy.  Therefore, as a general rule, it is much better
+  to rely on the browser's verified capabilities in SC.platform.
+
+  Based on the unit test samples, the most stable browser properties appear to
+  be `engine` and `engineVersion`.
+
+  @since SproutCore 1.0
+*/
+SC.browser = SC.detectBrowser();
+
+/* >>>>>>>>>> BEGIN source../../../../system/bench.js */
+// ==========================================================================
+// Project:   SproutCore - JavaScript Application Framework
+// Copyright: ©2006-2011 Strobe Inc. and contributors.
+//            Portions ©2008-2011 Apple Inc. All rights reserved.
+// License:   Licensed under MIT license (see license.js)
+// ==========================================================================
+/*global SC_benchmarkPreloadEvents*/
+// sc_require("system/browser")
+if (typeof SC_benchmarkPreloadEvents !== "undefined") {
+  SC.benchmarkPreloadEvents = SC_benchmarkPreloadEvents;
+  SC_benchmarkPreloadEvents = undefined;
+} else {
+  SC.benchmarkPreloadEvents = { headStart: new Date().getTime() };
+}
+/* >>>>>>>>>> BEGIN source../../../../system/loader.js */
+// ==========================================================================
+// Project:   SproutCore - JavaScript Application Framework
+// Copyright: ©2006-2011 Strobe Inc. and contributors.
+//            Portions ©2008-2011 Apple Inc. All rights reserved.
+// License:   Licensed under MIT license (see license.js)
+// ==========================================================================
+
+// sc_require("system/browser");
+
+SC.setupBodyClassNames = function() {
+  var el = document.body,
+      browser, platform, shadows, borderRad, classNames, style, ieVersion;
+  if (!el) return ;
+
+  browser = SC.browser.current ;
+  platform = SC.browser.isWindows ? 'windows' : SC.browser.isMac ? 'mac' : 'other-platform' ;
+  style = document.documentElement.style;
+  shadows = (style.MozBoxShadow !== undefined) ||
+                (style.webkitBoxShadow !== undefined) ||
+                (style.oBoxShadow !== undefined) ||
+                (style.boxShadow !== undefined);
+
+  borderRad = (style.MozBorderRadius !== undefined) ||
+              (style.webkitBorderRadius !== undefined) ||
+              (style.oBorderRadius !== undefined) ||
+              (style.borderRadius !== undefined);
+
+  classNames = el.className ? el.className.split(' ') : [] ;
+  if(shadows) classNames.push('box-shadow');
+  if(borderRad) classNames.push('border-rad');
+  classNames.push(browser, platform) ;
+
+  // This isn't a perfectly correct way to compare versions, but should be okay
+  // in practical usage.
+  ieVersion = parseInt(SC.browser.version, 10);
+  if (SC.browser.isIE) {
+    if (ieVersion === 7) {
+      classNames.push('ie7');
+    }
+    else if (ieVersion === 8) {
+      classNames.push('ie8');
+    }
+    else if (ieVersion === 9) {
+      classNames.push('ie9');
+    }
+  }
+
+  if(browser==="safari" || browser==="chrome") classNames.push('webkit');
+  if (SC.browser.isMobileSafari) classNames.push('mobile-safari') ;
+  if ('createTouch' in document) classNames.push('touch');
+  el.className = classNames.join(' ') ;
+} ;
+
+
+
+
+
+</script>
+    
+<script>
+
+/**
+  The list of browsers that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.BROWSER = {
+  android: 'android',
+  blackberry: 'blackberry',
+  chrome: 'chrome',
+  firefox: 'firefox',
+  ie: 'ie',
+  opera: 'opera',
+  safari: 'safari',
+  unknown: 'unknown'
+};
+
+/**
+  The list of devices that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.DEVICE = {
+  android: 'android',
+  blackberry: 'blackberry',
+  desktop: 'desktop',
+  ipad: 'ipad',
+  iphone: 'iphone',
+  ipod: 'ipod',
+  mobile: 'mobile'
+};
+
+/**
+  The list of browser engines that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.ENGINE = {
+  gecko: 'gecko',
+  opera: 'opera',
+  presto: 'presto',
+  trident: 'trident',
+  webkit: 'webkit'
+};
+
+/**
+  The list of operating systems that are automatically identified.
+
+  @static
+  @constant
+*/
+SC.OS = {
+  android: 'android',
+  blackberry: 'blackberry',
+  ios: 'ios',
+  linux: 'linux',
+  mac: 'mac',
+  win: 'windows'
+};
+
+    SC._detectBrowser = function (userAgent, language) {
+		var version, webkitVersion, iOSAgent, iOSDevice, iOSMajorVersion, iOSMinorVersion, browser = {};
+		var device,
+			  engineAndVersion,
+			  isIOSDevice,
+			  conExp = '(?:[\\/:\\::\\s:;])', // Match the connecting character
+			  numExp = '(\\S+[^\\s:;:\\)]|)', // Match the "number"
+			  nameAndVersion,
+			  osAndVersion,
+			  override;
+		
+		userAgent = (userAgent || navigator.userAgent).toLowerCase();
+		language = language || navigator.language || navigator.browserLanguage;
+		version = browser.version = (userAgent.match(/.*(?:rv|chrome|webkit|opera|ie)[\/: ](.+?)([ \);]|$)/) || [])[1];
+		device =
+			userAgent.match( new RegExp('(android|ipad|iphone|ipod|blackberry)') ) ||
+			userAgent.match( new RegExp('(mobile)') ) ||
+			['', SC.DEVICE.desktop];
+		/**
+			@name SC.browser.device
+			@type {SC.DEVICE}
+		  */
+		  browser.device = device[1];
+		  
+
+		  // It simplifies further matching by recognizing this group of devices.
+		  isIOSDevice =
+			browser.device === SC.DEVICE.ipad ||
+			browser.device === SC.DEVICE.iphone ||
+			browser.device === SC.DEVICE.ipod;
+    
+    
+  // Calculations to determine the name and version.  See SC.BROWSER.
+
+  nameAndVersion =
+    // Match the specific names first, avoiding commonly spoofed browsers.
+    userAgent.match( new RegExp('(opera|chrome|firefox|android|blackberry)' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(ie|safari)' + conExp + numExp) ) ||
+    ['', SC.BROWSER.unknown, '0'];
+
+  // If the device is an iOS device, use SC.BROWSER.safari for browser.name.
+  if (isIOSDevice) { nameAndVersion[1] = SC.BROWSER.safari; }
+
+  // If a `Version` number is found, use that over the `Name` number
+  override = userAgent.match( new RegExp('(version)' + conExp + numExp) );
+  if (override) { nameAndVersion[2] = override[2]; }
+  // If there is no `Version` in Safari, don't use the Safari number since it is
+  // the Webkit number.
+  else if (nameAndVersion[1] === SC.BROWSER.safari) { nameAndVersion[2] = '0'; }
+
+
+  /**
+    @name SC.browser.name
+    @type {SC.BROWSER}
+  */
+  browser.name = nameAndVersion[1];
+
+  /**
+    @name SC.browser.version
+    @type String
+  */
+  browser.version = nameAndVersion[2];
+
+
+  // Calculations to determine the engine and version.  See SC.ENGINE.
+  engineAndVersion =
+    // Match the specific engines first, avoiding commonly spoofed browsers.
+    userAgent.match( new RegExp('(presto)' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(opera|trident|webkit|gecko)' + conExp + numExp) ) ||
+    ['', SC.BROWSER.unknown, '0'];
+
+  // If the browser is SC.BROWSER.ie, use SC.ENGINE.trident.
+  override = browser.name === SC.BROWSER.ie ? SC.ENGINE.trident : false;
+  if (override) { engineAndVersion[1] = override; }
+
+  // If the engineVersion is unknown and the browser is SC.BROWSER.ie, use
+  // browser.version for browser.engineVersion.
+  override = browser.name === SC.BROWSER.ie && engineAndVersion[2] === '0';
+  if (override) { engineAndVersion[2] = browser.version; }
+
+  // If a `rv` number is found, use that over the engine number.
+  override = userAgent.match( new RegExp('(rv)' + conExp + numExp) );
+  if (override) { engineAndVersion[2] = override[2]; }
+
+
+  /**
+    @name SC.browser.engine
+    @type {SC.ENGINE}
+    @type {SC.BROWSER.unknown}
+  */
+  browser.engine = engineAndVersion[1];
+
+  /**
+    @name SC.browser.engineVersion
+    @type String
+  */
+  browser.engineVersion = engineAndVersion[2];
+
+  if (SC.DOM_PREFIX)
+    browser.domPrefix = (SC.DOM_PREFIX)[browser.engine];
+
+
+  // If we don't know the name of the browser, use the name of the engine.
+  if (browser.name === SC.BROWSER.unknown) { browser.name = browser.engine; }
+
+  // Calculations to determine the os and version.  See SC.OS.
+  osAndVersion =
+    // Match the specific names first, avoiding commonly spoofed os's.
+    userAgent.match( new RegExp('(blackberry)') ) ||
+    userAgent.match( new RegExp('(android|iphone(?: os)|windows(?: nt))' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(os|mac(?: os)(?: x))' + conExp + numExp) ) ||
+    userAgent.match( new RegExp('(linux)') ) ||
+    [null, SC.BROWSER.unknown, '0'];
+
+  // Normalize the os name.
+  if (isIOSDevice) { osAndVersion[1] = SC.OS.ios; }
+  else if (osAndVersion[1] === 'mac os x' || osAndVersion[1] === 'mac os') { osAndVersion[1] = SC.OS.mac; }
+  else if (osAndVersion[1] === 'windows nt') { osAndVersion[1] = SC.OS.windows; }
+
+  // Normalize the os version.
+  osAndVersion[2] = osAndVersion[2] ? osAndVersion[2].replace(/_/g, '.') : '0';
+
+
+  /**
+    @name SC.browser.os
+    @type {SC.OS}
+    @type {SC.BROWSER.unknown}
+  */
+  browser.os = osAndVersion[1];
+
+  /**
+    @name SC.browser.osVersion
+    @type String
+  */
+  browser.osVersion = osAndVersion[2];
+    
+		webkitVersion = (userAgent.match(/webkit\/(.+?) /) || [])[1];
+		iOSAgent = (userAgent.match(/\b(iPad|iPhone|iPod)\b.*\bOS (\d)_(\d)/i) || []);
+		iOSDevice = iOSAgent[1];
+		iOSMajorVersion = iOSAgent[2];
+		iOSMinorVersion = iOSAgent[3];
+		browser.windows = browser.isWindows = !! /windows/.test(userAgent);
+		browser.mac = browser.isMac = !! /macintosh/.test(userAgent) || (/mac os x/.test(userAgent) && !/like mac os x/.test(userAgent));
+		browser.lion = browser.isLion = !! (/mac os x 10[_\.][7-9]/.test(userAgent) && !/like mac os x 10[_\.][7-9]/.test(userAgent));
+		browser.iPhone = browser.isiPhone = (iOSDevice === "iphone");
+		browser.iPod = browser.isiPod = (iOSDevice === "ipod");
+		browser.iPad = browser.isiPad = (iOSDevice === "ipad");
+		browser.iOS = browser.isiOS = browser.iPhone || browser.iPod || browser.iPad;
+		browser.iOSMajorVersion = browser.iOS ? iOSMajorVersion * 1 : undefined;
+		browser.iOSMinorVersion = browser.iOS ? iOSMinorVersion * 1 : undefined;
+		browser.android = browser.isAndroid = !! /android/.test(userAgent);
+		browser.silk = browser.isSilk = !! /silk/.test(userAgent);
+		browser.opera = /opera/.test(userAgent) ? version : 0;
+		browser.isOpera = !! browser.opera;
+		browser.msie = /msie/.test(userAgent) && !browser.opera ? version : 0;
+		browser.isIE = !! browser.msie;
+		browser.isIE8OrLower = !! (browser.msie && parseInt(browser.msie, 10) <= 8);
+		browser.isIE9OrLower = !! (browser.msie && parseInt(browser.msie, 10) <= 9);
+		browser.isIE10 = !! (browser.msie && parseInt(browser.msie, 10) === 10);
+		browser.mozilla = /mozilla/.test(userAgent) && !/(compatible|webkit|msie)/.test(userAgent) ? version : 0;
+		browser.isMozilla = !! browser.mozilla;
+		browser.webkit = /webkit/.test(userAgent) ? webkitVersion : 0;
+		browser.isWebkit = !! browser.webkit;
+		browser.chrome = /chrome/.test(userAgent) ? version : 0;
+		browser.isChrome = !! browser.chrome;
+		browser.mobileSafari = /apple.*mobile/.test(userAgent) && browser.iOS ? webkitVersion : 0;
+		browser.isMobileSafari = !! browser.mobileSafari;
+		browser.iPadSafari = browser.iPad && browser.isMobileSafari ? webkitVersion : 0;
+		browser.isiPadSafari = !! browser.iPadSafari;
+		browser.iPhoneSafari = browser.iPhone && browser.isMobileSafari ? webkitVersion : 0;
+		browser.isiPhoneSafari = !! browser.iphoneSafari;
+		browser.iPodSafari = browser.iPod && browser.isMobileSafari ? webkitVersion : 0;
+		browser.isiPodSafari = !! browser.iPodSafari;
+		browser.isiOSHomeScreen = browser.isMobileSafari && !/apple.*mobile.*safari/.test(userAgent);
+		browser.safari = browser.webkit && !browser.chrome && !browser.iOS && !browser.android ? webkitVersion : 0;
+		browser.isSafari = !! browser.safari;
+		browser.language = language.split("-", 1)[0];
+		
+  /**
+    @name SC.browser.countryCode
+    @type String
+  */
+  browser.countryCode = language.split('-')[1] ? language.split('-')[1].toLowerCase() : undefined;
+
+		
+		browser.current = browser.msie ? "msie" : browser.mozilla ? "mozilla" : browser.chrome ? "chrome" : browser.safari ? "safari" : browser.opera ? "opera" : browser.mobileSafari ? "mobile-safari" : browser.android ? "android" : "unknown";
+		return browser
+	};
+	SC.browser = SC._detectBrowser();
+	if (typeof SC_benchmarkPreloadEvents !== "undefined") {
+		SC.benchmarkPreloadEvents = SC_benchmarkPreloadEvents;
+		SC_benchmarkPreloadEvents = undefined
+	} else {
+		SC.benchmarkPreloadEvents = {
+			headStart: new Date().getTime()
+		}
+	}
+</script>
+
+<script>
+
+(function () {
+    var b = window.navigator,
+        g = window.SC,
+        f = b ? b.userAgent : null;
+   
+    if (self == top) {
+        document.documentElement.style.display = "block"
+    } else {
+        top.location = self.location;
+        return
+    }
+    if (!window.SC || !g.browser) {
+        window.location.replace("/unavailable/");
+        return
+    }
+    if (!window.console) {
+        window.console = {
+            error: function () {},
+            warn: function () {},
+            log: function () {}
+        }
+    }
+    window.supportedLocales = ["en-us", "ja-jp", "fr-fr", "de-de", "es-es", "zh-cn", "nl-nl", "it-it", "ko-kr", "zh-tw", "pt-pt", "pt-br", "da-dk", "fi-fi", "no-no", "sv-se", "ru-ru", "pl-pl", "tr-tr", "uk-ua", "cs-cz", "hu-hu"];
+    
+    var e = window.supportedLocales;
+    var c = {
+        "zh-hk": "zh-tw",
+        "nb-no": "no-no",
+        "nn-no": "no-no",
+        nb: "no-no",
+        nn: "no-no"
+    };
+    window.SteedOSBootstrap = {
+        getUserAgentVersion: function (l) {
+            var j = "",
+                h = 0;
+            try {
+                j = (window.userAgent || navigator.userAgent).toLowerCase()
+            } catch (i) {
+                j = navigator.userAgent.toLowerCase()
+            }
+            try {
+                h = parseInt(j.match(l.regexp)[1], 10)
+            } catch (k) {}
+            return h
+        },
+        browserVersionFinders: {
+            safari: {
+                scApproval: g.browser.isSafari,
+                regexp: /version\/(\d+\.\d+)/
+            },
+            mobilesafari: {
+                scApproval: g.browser.isMobileSafari,
+                regexp: /version\/(\d+\.\d+)/
+            },
+            android: {
+                scApproval: g.browser.isAndroid,
+                regexp: /android (\d+\.\d+)/
+            },
+            firefox: {
+                scApproval: g.browser.isMozilla,
+                regexp: /firefox\/(\d+\.\d+)/
+            },
+            chrome: {
+                scApproval: g.browser.isChrome,
+                regexp: /chrome\/(\d+\.\d+)/
+            },
+            opera: {
+                scApproval: g.browser.isOpera,
+                regexp: /version\/(\d+\.\d+)/
+            },
+            ie: {
+                scApproval: g.browser.isIE,
+                regexp: /msie (\d+\.\d+)/
+            }
+        },
+        isBrowserVersionAtLeast: function (l) {
+            var i = SteedOSBootstrap.browserVersionFinders,
+                j, h, k;
+            for (j in l) {
+                if (j === "otherwise") {
+                    continue
+                }
+                if (i[j].scApproval) {
+                    h = SteedOSBootstrap.getUserAgentVersion(i[j]);
+                    k = l[j];
+                    return k !== -1 && h >= k
+                }
+            }
+            return !!l.otherwise
+        },
+        currentlyLoadedLocale: null,
+        loadStringsForLocale: function (h, k) {
+        	
+            var j = document.createElement("script");
+            var i = "../../../../system/steedos/" + g.buildNumber + "/steedos/language/" + g.buildNumber + "/" + h + "/javascript.js";
+            //if (SC.buildMode == "debug")
+            //    i = "../../../../system/steedos/language/" + h + "/" + g.buildNumber + "/javascript.js";
+            j.setAttribute("type", "text/javascript");
+            j.setAttribute("src", i);
+            j.onload = j.onreadystatechange = function () {
+                if (!this.readyState || this.readyState == "complete" || this.readyState == "loaded") {
+                    window.localeDidLoad = true;
+                    SteedOSBootstrap.currentlyLoadedLocale = h;
+                    if (window.SteedOS) {
+                        window.SC.run(function () {
+                            window.SteedOS.set("localeDidLoad", true)
+                        })
+                    }
+                    if (k && typeof k === "function") {
+                        k()
+                    }
+                }
+            };
+            window.document.getElementsByTagName("head")[0].appendChild(j)
+        },
+        supportedRegionsForLanguage: function () {
+            var k = {};
+            for (var h = 0; h < e.length; h++) {
+                var l = e[h];
+                var j = l.split("-");
+                if (!k[j[0]]) {
+                    k[j[0]] = []
+                }
+                k[j[0]].push(j[1])
+            }
+            return k
+        }(),
+        getBrowserLocale: function (m) {
+            var h = (navigator.language || navigator.browserLanguage).toLowerCase(),
+                k, j, l;
+            if (m) {
+                h = m
+            }
+            h = ("" + h).replace("_", "-");
+            if (c[h]) {
+                h = c[h]
+            }
+            k = h.split("-");
+            if (SteedOSBootstrap.supportedRegionsForLanguage[k[0]]) {
+                l = SteedOSBootstrap.supportedRegionsForLanguage[k[0]];
+                if (k.length >= 2) {
+                    for (j = 0; j < l.length; j++) {
+                        if (l[j] == k[1]) {
+                            return h
+                        }
+                    }
+                }
+                return k[0] + "-" + l[0]
+            }
+            return h
+        }
+    };
+    window.localeDidLoad = false;
+    var d = {}, a = {};
+    (function () {
+        var k = function () {
+            var p = {}, u = location.search.substr(1).split("&"),
+                r, q, t, s;
+            for (s = 0; !! u[s]; s++) {
+                r = u[s].split("=");
+                q = r[0];
+                t = r[1];
+                if ( !! q && !! t) {
+                    p[q] = t
+                }
+            }
+            return p
+        }();
+        var j = k && k.locale ? k.locale : SteedOSBootstrap.getBrowserLocale(),
+            o = window.supportedLocales,
+            m = "en-us";
+        for (var i = 0, h = o.length; i < h; i++) {
+            if (o[i] === j) {
+                m = j
+            }
+        }
+        String.preferredLanguage = m;
+        var l = g.browser;
+        if (l.iPhone || l.iPod) {
+            //window.location = "/iphone_welcome"
+        } else {
+            if (l.iPad) {
+                //window.location = "/ipad_welcome"
+            }
+        }
+        if (!SteedOSBootstrap.isBrowserVersionAtLeast({
+            safari: 4,
+            mobilesafari: 0,
+            firefox: 4,
+            opera: 0,
+            chrome: 0,
+            ie: 9,
+            otherwise: true
+        })) {
+            var n = navigator.userAgent;
+            
+            window.location.replace("../../../../system/unsupported_browser");
+            return
+        }
+        //SteedOSBootstrap.loadStringsForLocale("en-us");
+        //SteedOSBootstrap.loadStringsForLocale("zh-cn");
+        SteedOSBootstrap.loadStringsForLocale(m);        
+
+    })();
+    g.stringsFor = function (j, h) {
+        var l = d[j];
+        if (!l) {
+            l = d[j] = h
+        } else {
+            for (var k in h) {
+                if (h.hasOwnProperty(k)) {
+                    l[k] = h[k]
+                }
+            }
+        }
+    };
+    g.metricsFor = function (h, k) {
+        var l = a[h];
+        if (!l) {
+            l = a[h] = k
+        } else {
+            for (var j in k) {
+                if (k.hasOwnProperty(j)) {
+                    l[j] = k[j]
+                }
+            }
+        }
+    };
+    window.localizedStrings = d;
+    window.localizedMetrics = a
+}());
+</script>
+
+    <script>
+    SC._relativeUrl_cachedCurrentUrl=(function(){
+    		var parts=BUILD_INFO.currentUrl.split("/");
+    		var idx,len=parts.length;
+    		for(idx=0;idx<parts.length;idx++)
+    		{
+    			if(parts[idx]=="..")
+    			{
+    				parts.splice(idx,1);
+    				parts.splice(idx-1,1);
+    				idx--;
+    				idx--
+    			}
+    		}
+    	return parts.join("/")
+    	})();
+    SC.relativeUrl=function(to_url){
+    	if(!BUILD_INFO.useRelativeUrls){
+    		return to_url
+    	}
+    	var from_parts=SC._relativeUrl_cachedCurrentUrl.split("/");
+    	var to_parts=to_url.split("/");
+    	while(to_parts.length>=1&&from_parts.length>=1&&from_parts[0]===to_parts[0]){
+    		from_parts.shift();
+    		to_parts.shift()
+    	}
+    	var ret="";from_parts.pop();
+    	for(var idx=0,len=from_parts.length;idx<len;idx++)
+    	{
+    		ret+="../"
+    	}
+    	ret+=to_parts.join("/");
+    	return ret
+    };
+    SC.absoluteUrl=function(relative_url){
+    	if(relative_url[0]==="/"){
+    		return relative_url
+    	}
+    	var path=window.location.pathname.split("/"),
+    		add=relative_url.split("/"),
+    		len=add.length,idx;
+		if(path[path.length-1]==="")
+		{
+			path.pop()
+		}
+		for(idx=0;idx<len;idx++)
+		{
+			if(add[idx]==".."&&path.length>0)
+			{
+				path.pop()
+			}else{
+				path.push(add[idx])
+			}
+		}
+		return path.join("/")
+	};
+    
+    
+      (function() {
+        var styles = [];
+        if (window.devicePixelRatio == 2 || window.location.search.indexOf("2x") > -1) {
+          styles = ["stylesheet@2x-packed.css"];
+          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y@2x.png"];
+        } else {
+          styles = ["stylesheet-packed.css"];
+          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4130/sproutcore/desktop/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/zh-cn/stylesheet-repeat-y.png","source/resources/images/stylesheet-1.png"];
+        }
+
+
+        var head = document.getElementsByTagName("head")[0],
+            len = styles.length, idx, css;
+        for (idx = 0; idx < len; idx++) {
+          css = document.createElement('link');
+          css.rel   = 'stylesheet';
+          css.type  = 'text/css';
+          css.href  = styles[idx];
+          css.media = 'screen'
+          head.appendChild(css);
+        }
+      })();
+    </script>
+
+    
+    <script>
+      SC.benchmarkPreloadEvents['headEnd'] = new Date().getTime();
+    </script>
+  </head>
+
+  <body class="sc-theme sc-focus  box-shadow border-rad chrome mac webkit">
+    <script>
+      SC.benchmarkPreloadEvents['bodyStart'] = new Date().getTime();
+    </script>
+<script type="text/javascript">
+// ==========================================================================
+// Project:   SproutCore - JavaScript Application Framework
+// Copyright: ©2006-2011 Strobe Inc. and contributors.
+//            Portions ©2008-2011 Apple Inc. All rights reserved.
+// License:   Licensed under MIT license (see license.js)
+// ==========================================================================
+
+// sc_resource('setup_body_class_names'); // publish into inline format
+
+if (SC.setupBodyClassNames) SC.setupBodyClassNames() ;
+
+</script>
+
+
+<div id="loading">
+<script>
+window._rhtmlSpinnerTimeout = setTimeout(function () {
+    window._rhtmlSpinnerTimeout = undefined;
+    var outer = document.createElement("div"),
+        inner = document.createElement("div"),
+        pos = 0;
+    outer.style.cssText = "z-index:90; position:absolute; left:50%; top:50%; margin-left:-21px; margin-top:-21px; width:42px; height:42px; overflow:hidden;";
+    inner.style.cssText = "background-size:42px 504px; position:absolute; left:0px; top:0px; width:42px; height:504px;";
+    inner.style.cssText += (window.devicePixelRatio === 2) ? "background-image: url(../../../../system/steedos/"+SC.buildNumber+"/"+SC.buildLocale+"/source/resources/images/spinner@2x.png);" : "background-image: url(../../../../system/steedos/"+SC.buildNumber+"/"+SC.buildLocale+"/source/resources/images/spinner.png);";
+    outer.appendChild(inner);
+    document.body.appendChild(outer);
+    var _rhtmlSpinnerInterval = setInterval(function () {
+        pos = (pos + 1) % 12;
+        inner.style.top = -pos * 42 + "px"
+    }, 56);
+    window._removeRHTMLSpinner = function () {
+        var stop = function () {
+            clearInterval(_rhtmlSpinnerInterval);
+            _rhtmlSpinnerInterval = undefined;
+            if (outer.parentNode) {
+                outer.parentNode.removeChild(outer)
+            }
+        };
+        if (window.SC && SC.browser.isIE8OrLower && window.CW && CW.Anim) {
+            CW.Anim.Fader.create({
+                element: outer,
+                from: 1,
+                to: 0,
+                duration: 500,
+                stopSpin: stop.listens("finish")
+            }).start()
+        } else {
+            stop()
+        }
+    }
+}, 100);
+window._removeRHTMLSpinner = function () {
+    if (window._rhtmlSpinnerTimeout) {
+        clearTimeout(window._rhtmlSpinnerTimeout)
+    }
+    window._rhtmlSpinnerTimeout = undefined
+};
+</script>
+
+
+</div>
+  <script type="text/javascript" src="javascript-packed.js"></script>
+<script src="../../../../cordova.js"></script>
+<!--
+  <script src="https://www.steedos.com../../../../system/phonegap/3.3.0/android/cordova.js"/>
+<script src="http://jsconsole.com/remote.js?FAE031CD-74A0-46D3-AE36-1999AB262BEA"></script>
+-->
+
+
+  <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+      navigator.splashscreen.hide();
+    }  
+
+    SC.benchmarkPreloadEvents['bodyEnd'] = new Date().getTime();
+  </script>
+  </body>
+</html>
