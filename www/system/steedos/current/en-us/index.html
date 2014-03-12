@@ -56,18 +56,18 @@
 <script>
 	BUILD_INFO={
 		buildMode:"production",
-		buildNumber:"4130",
+		buildNumber:"4330",
 		buildLocale:"en-us",
-		currentUrl:"../../../../system/steedos/4130/en-us/index.html",
+		currentUrl:"../../../../system/steedos/4330/en-us/index.html",
 		//currentUrl: window.location.pathname,
 		useRelativeUrls:true,
 		styles:{
-			x2: ["../../../../system/steedos/4130/en-us/stylesheet@2x-packed.css"],
-			normal: ["../../../../system/steedos/4130/en-us/stylesheet-packed.css"]
+			x2: ["../../../../system/steedos/4330/en-us/stylesheet@2x-packed.css"],
+			normal: ["../../../../system/steedos/4330/en-us/stylesheet-packed.css"]
 		},
 		images:{
-			x2: ["../../../../system/steedos/4130/sproutcore/desktop/4130/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-y@2x.png"],
-			normal:["../../../../system/steedos/4130/sproutcore/desktop/4130/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-y.png","../../../../system/steedos/4130/en-us/source/resources/images/stylesheet-1.png"]
+			x2: ["../../../../system/steedos/4330/sproutcore/desktop/4330/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-x@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-y@2x.png"],
+			normal:["../../../../system/steedos/4330/sproutcore/desktop/4330/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-y.png","../../../../system/steedos/4330/en-us/source/resources/images/stylesheet-1.png"]
 		}
 	};
 </script>
@@ -75,7 +75,7 @@
     <script>
       window.SC = window.SC || { MODULE_INFO: {}, LAZY_INSTANTIATION: {} };
       SC.buildMode = 'production';
-      SC.buildNumber = '4130';
+      SC.buildNumber = '4330';
       SC.buildLocale = 'en-us';
 	</script>
       
@@ -917,11 +917,13 @@ SC.OS = {
             log: function () {}
         }
     }
-    window.supportedLocales = ["en-us", "ja-jp", "fr-fr", "de-de", "es-es", "zh-cn", "nl-nl", "it-it", "ko-kr", "zh-tw", "pt-pt", "pt-br", "da-dk", "fi-fi", "no-no", "sv-se", "ru-ru", "pl-pl", "tr-tr", "uk-ua", "cs-cz", "hu-hu"];
+    window.supportedLocales = ["en-us", "zh-cn"];
     
     var e = window.supportedLocales;
     var c = {
-        "zh-hk": "zh-tw",
+        "zh-hk": "zh-cn",
+        "zh-hans": "zh-cn",
+        "en": "en-us",
         "nb-no": "no-no",
         "nn-no": "no-no",
         nb: "no-no",
@@ -1026,6 +1028,8 @@ SC.OS = {
         getBrowserLocale: function (m) {
             var h = (navigator.language || navigator.browserLanguage).toLowerCase(),
                 k, j, l;
+            if (window.brackets && brackets.app && brackets.app.language)
+              h = brackets.app.language;
             if (m) {
                 h = m
             }
@@ -1190,11 +1194,11 @@ SC.OS = {
       (function() {
         var styles = [];
         if (window.devicePixelRatio == 2 || window.location.search.indexOf("2x") > -1) {
-          styles = ["../../../../system/steedos/4130/en-us/stylesheet@2x-packed.css"];
-          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4130/sproutcore/desktop/4130/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-x@2x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-y@2x.png"];
+          styles = ["../../../../system/steedos/4330/en-us/stylesheet@2x-packed.css"];
+          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4330/sproutcore/desktop/4330/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-no-repeat@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-x@2x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-y@2x.png"];
         } else {
-          styles = ["../../../../system/steedos/4130/en-us/stylesheet-packed.css"];
-          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4130/sproutcore/desktop/4130/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-x.png","../../../../system/steedos/4130/coreweb/steedos_theme_v3/4130/en-us/stylesheet-repeat-y.png","../../../../system/steedos/4130/en-us/source/resources/images/stylesheet-1.png"];
+          styles = ["../../../../system/steedos/4330/en-us/stylesheet-packed.css"];
+          SC.APP_IMAGE_ASSETS = ["../../../../system/steedos/4330/sproutcore/desktop/4330/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-no-repeat.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-x.png","../../../../system/steedos/4330/coreweb/steedos_theme_v3/4330/en-us/stylesheet-repeat-y.png","../../../../system/steedos/4330/en-us/source/resources/images/stylesheet-1.png"];
         }
 
 
@@ -1283,7 +1287,7 @@ window._removeRHTMLSpinner = function () {
 
 
 </div>
-  <script type="text/javascript" src="../../../../system/steedos/4130/en-us/javascript-packed.js"></script>
+  <script type="text/javascript" src="../../../../system/steedos/4330/en-us/javascript-packed.js"></script>
 <script src="../../../../cordova.js"></script>
 <!--
   <script src="https://www.steedos.com../../../../system/phonegap/3.3.0/android/cordova.js"/>
